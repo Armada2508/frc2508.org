@@ -1,4 +1,35 @@
-- year: 2018-2019
+  year: 2022-2023
+  image: /assets/images/noimage.jpg #update for 2023 | No image until comp
+  leadership: >
+    Captain - Frederick Ribolzi<br/>
+    Mechanical Lead - Frederick Ribolzi<br/>
+    Programming Lead - Brock Blaha<br/>
+    Buisness Lead - Mya Brainard / Cody Rasch<br/>
+    CAD Lead - Frederick Ribolzi<br/>
+    Electronics Lead - Eddie Roots<br/>
+  challenge: Charged Up
+  robots: 
+  about: > #update
+  
+  year: 2021-2022
+  image: /assets/images/teams/2022.jpg
+  leadership: >
+    Captain - Addie Foote<br/>
+    Electronics Lead - Eddie Roots<br/>
+  challenge: Rapid React
+  robots: 
+  about: > #update
+
+  year: 2019-2020
+  image: /assets/images/teams/2020.jpg
+  leadership: >
+    Captain - Ben Abbott<br/>
+    Assistant Captain - Carter Smith<br/> 
+  challenge: Infinite Recharge
+  robots: 
+  about: > #update- 
+
+  year: 2018-2019
   image: /assets/images/teams/2019.jpg
   leadership: >
     Captain - Everett Kroll<br/>
