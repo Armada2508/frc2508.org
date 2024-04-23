@@ -1,13 +1,20 @@
-- name: To be determined
-  hidden: true
+- name: Galleon - Semifinalist at both Great Northern and 10,000 Lakes
+  hidden: false
   year: 2024
-  image: /assets/comingsoon.png
-  record: To be determined
-  ranking: To be determined
+  image: /assets/images/robots/2024.jpg
+  record: 12-11-0
+  ranking: 39 (Great Northern), 7 (10,000 Lakes)
   about: >
-    Update
+    For the Crescendo challenge, our robot was designed to efficiently take in notes and shoot them into both the Speaker and Amp 
+    elements by using vision software. Utilizing pneumatics which were implemented following catastrophic damages we sustained at the 
+    Great Northern Regional, Galleon is able to stow its entire intake / shooting mechanism within itself. Our robot uses pathfinding 
+    to automatically center itself onto a chain thus allowing the drivers to move foward and perfectly balance onto the chain.
   challenge: >
-    Update
+    The 2024 challenge Crescendo presented by Haas features music themed elements in the game pieces and field elements. Alliances 
+    must design a robot capable of placing Notes, torus shaped game pieces, into a lower goal called the Amp, or shooting them into a 
+    higher goal called the Speaker. At the end of the game, robots either attempt to score more notes, or begin climbing on a chain at 
+    their respective alliances stage. Once on the stage, robots can attempt to core an additional note into the Trap, located above the 
+    Stage.
 
 - name: Kris
   hidden: false
