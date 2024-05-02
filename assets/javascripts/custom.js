@@ -1,0 +1,1 @@
+$("body").scrollspy({target:"#nav",offset:40}),$(".carousel").each(function(){var t=5e3;null!=$(this).attr("rel-speed")&&(t=$(this).attr("rel-speed")),$(this).carousel({interval:t})}),$("a").click(function(){return $("html, body").animate({scrollTop:$($.attr(this,"href")).offset().top},500),!1});
