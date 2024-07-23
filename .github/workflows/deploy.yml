@@ -13,19 +13,15 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6.6'
-      - name: Install bundler
-        run: gem install bundler:2.1.4
+          ruby-version: '3.3.4'
       - name: Install bundled gems
         run: bundle install
       - name: Build site
         run: bundle exec middleman build
       - name: GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          # Build directory to deploy
+          target_branch: gh-pages
           build_dir: ./build
-          # Allow Jekyll to build your site
-          #jekyll: # optional, default is true
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
