@@ -8,7 +8,7 @@
     For the Crescendo challenge, our robot was designed to efficiently take in notes and shoot them into both the Speaker and Amp 
     elements by using vision software. Utilizing pneumatics which were implemented following catastrophic damages we sustained at the 
     Great Northern Regional, Galleon is able to stow its entire intake / shooting mechanism within itself. Our robot uses pathfinding 
-    to automatically center itself onto a chain thus allowing the drivers to move foward and perfectly balance onto the chain.
+    to automatically center itself onto a chain thus allowing the drivers to move forward and perfectly balance onto the chain.
   challenge: >
     The 2024 challenge Crescendo presented by Haas features music themed elements in the game pieces and field elements. Alliances 
     must design a robot capable of placing Notes, torus shaped game pieces, into a lower goal called the Amp, or shooting them into a 
@@ -24,12 +24,12 @@
   ranking: 25 (Great Northern), 57 (10,000 Lakes)
   about: > 
     This year, for the Charged Up challenge, we designed a robot to move both types of game pieces and at the end, balance on the
-    charging platform utilizing a balancing algorithim. This robot specialized in moving the cones and as such had a mechanical arm
+    charging platform utilizing a balancing algorithm. This robot specialized in moving the cones and as such had a mechanical arm
     with a mechanism on the end to make sure all cones picked up were in the upright position. At the end of the match, using the
-    algorithim previousely mentioned, we would balance onto the charging station.
+    algorithm previously mentioned, we would balance onto the charging station.
   challenge: > 
     Charged Up, the challenge for 2023 presented by Haas is a energy themed competition. Each alliance must design a robot to
-    pick up the cone/cube game pieces along with balencing on a seesaw type mechanism called the charging station. There are 3 levels
+    pick up the cone/cube game pieces along with balancing on a seesaw type mechanism called the charging station. There are 3 levels
     of height to put the cone and cube pieces on with the bottom row being a hybrid section that both cone and cubes can go in.
     At the end of the match, all robots can either continue to place game pieces, or go to the charging station to balance.
 
@@ -58,7 +58,7 @@
   about: > 
     This years robot could store up to 5 dino skinned balls utilizing a positioning system coded into the robot. 
     It also had compressed air cans which refilled during the match, when it was time to use them, it would extend 
-    arms up to fufill the climbing challenge.
+    arms up to fulfill the climbing challenge.
   challenge: > 
     Infinite recharge was a partnership with Lucas Film. The matches were centered around a futuristic city modeled after Star Wars.
     The objective of the game was to prevent an astriod from hitting the city by shooting powercells into generators. 
@@ -190,7 +190,7 @@
   ranking: 26
   challenge: >
     Logo Motion incorporated the FIRST logo as game pieces. Each Alliance must hang as 
-    many of the logo game pieces (inflated trianges, circles, and squares) on the scoring 
+    many of the logo game pieces (inflated triangles, circles, and squares) on the scoring 
     grids located on each end of the field as possible. The higher a game piece is hung 
     on the grid, the more points the alliance receives.  Any logo piece hung on the same 
     peg as an Ubertube receives double points. If the logo pieces are assembled in the
