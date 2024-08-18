@@ -12,6 +12,7 @@ New features, suggestions, and existing bugs should be tracked on the [Github is
 2. Clone this repository with `git clone https://github.com/Armada2508/frc2508.org.git`.
 3. Navigate to the root directory of this repository in a command prompt.
 4. Type `bundle install` (you may need `gem install bundle` first).
+5. If you're using VSCode I recommend installing [this extension](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) for improved syntax highlighting.
 
 ### Run Website Locally
 
