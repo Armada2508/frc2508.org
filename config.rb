@@ -13,6 +13,9 @@ activate :directory_indexes
 # Disable directory indexes for certain pages
 page "/404.html", :directory_index => false
 
+# JavaScript
+activate :sprockets
+
 # Live reloading
 activate :livereload
 
