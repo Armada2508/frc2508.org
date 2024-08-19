@@ -7,6 +7,9 @@ gem "middleman"
 # Live-reloading plugin
 gem "middleman-livereload"
 
+# JavaScript
+gem 'middleman-sprockets'
+
 gem "bigdecimal"
 gem "mutex_m"
 gem "base64"
