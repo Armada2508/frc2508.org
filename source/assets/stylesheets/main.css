@@ -45,11 +45,11 @@ body {
   font-size: 1em;
 }
 
-.footer a {
+.footer a.inherit {
   color: inherit;
 }
 
-.footer a:hover {
+.footer a.inherit:hover {
   color: inherit;
   text-decoration: none;
   color: #555;
