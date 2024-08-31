@@ -1,6 +1,6 @@
 # frc2508.org ![Deployment](https://github.com/Armada2508/frc2508.org/workflows/Deployment/badge.svg)
 
-The official Armada Robotics 2508 website.
+The official Armada Robotics 2508 website. Created using [Ruby](https://www.ruby-lang.org/en/), [Middleman](https://middlemanapp.com/), and [ERB](https://github.com/ruby/erb).
 
 ### Bugs/Enhancements
 
