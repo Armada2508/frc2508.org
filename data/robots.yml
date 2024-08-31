@@ -82,10 +82,11 @@
     on rockets and cargo ships before returning to their HAB platform to climb at the end of the match.
   
 - name: T-Shirt Launcher
-  year: 2015-2018
+  year: 2015-2024
   image: /assets/images/robots/tshirt.jpg
   about: >
-    Launches t-shirts at games at Stillwater Area High School.
+    Launches t-shirts at games at Stillwater Area High School and other outreach events. In 2023 it had a large makeover
+    from the old cRIO control system to the newer roboRIO control system. 
 
 - name: Phineas
   year: 2018
