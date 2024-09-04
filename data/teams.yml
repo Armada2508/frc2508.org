@@ -7,7 +7,7 @@
     Business Leads - Mya Brainard / Cody Rasch<br/>
     Electronics Lead - Eddie Roots<br/>
   challenge: Crescendo
-  robots: 
+  robots:
   about:
 
 - year: 2022-2023
@@ -20,28 +20,27 @@
     CAD Lead - Frederick Ribolzi<br/>
     Electronics Lead - Eddie Roots<br/>
   challenge: Charged Up
-  robots: 
+  robots:
   about:
-    
+
 - year: 2021-2022
   image: /assets/images/teams/2022.jpg
   leadership: >
     Captain - Addie Foote<br/>
     Electronics Lead - Eddie Roots<br/>
   challenge: Rapid React
-  robots: 
+  robots:
   about:
-    
+
 - year: 2019-2020
   image: /assets/images/teams/2020.jpg
   leadership: >
     Captain - Ben Abbott<br/>
-    Assistant Captain - Carter Smith<br/> 
+    Assistant Captain - Carter Smith<br/>
   challenge: Infinite Recharge
-  robots: 
+  robots:
   about: >
     Fun fact! due to the COVID-19 pandemic, both championships were cancelled this year
-   
 
 - year: 2018-2019
   image: /assets/images/teams/2019.jpg
@@ -60,7 +59,7 @@
     Fun fact! Semifinalists at the 10,000 Lakes Regional Competition. This is the first team to do this in Armada history!
     Another fun fact! First year any Armada team has competeted at two regional competitions. Armada competed at the Great Northern 
     Regional Competition in North Dakota and the 10,000 Lakes Regional Competition in Minnesota.
-  
+
 - year: 2017-2018
   image: /assets/images/teams/2018.jpg
   leadership: >
@@ -73,7 +72,7 @@
   robots:
   about: >
     Fun fact! We have been a team for a decade.
-  
+
 - year: 2016-2017
   image: /assets/images/teams/2017.jpg
   leadership: >
@@ -84,7 +83,7 @@
   challenge: FIRST Steamworks
   robots:
   about:
-  
+
 - year: 2015-2016
   image: /assets/images/teams/2016.jpg
   leadership: >
@@ -95,7 +94,7 @@
     Safety Captain: Emma Klinzing
   challenge: FIRST Stronghold
   about:
-  
+
 - year: 2014-2015
   image: /assets/images/teams/2015.jpg
   leadership: >
@@ -104,14 +103,13 @@
     Officer (Communication): Margo Redmond<br/>
     Officer (Build): Kyle Badger<br/>
     Junior Captain: Ace Oubaha<br/>
-    Safety Captain: James Vandenbergh 
+    Safety Captain: James Vandenbergh
   members: 59
   challenge: Recycle Rush
-  about:
-    Fun fact! This is the largest team Armada has ever had with a total of 59 students!
-  
+  about: Fun fact! This is the largest team Armada has ever had with a total of 59 students!
+
 - year: 2013-2014
-  image:  /assets/images/teams/2014.jpg
+  image: /assets/images/teams/2014.jpg
   leadership: >
     Captain: Holly Newton<br/>
     Junior Captain: Joey Fedor<br/>
@@ -127,7 +125,7 @@
   challenge: Aerial Assist
   about: >
     Fun fact! We ranked 7th at the Aerial Assist competition.
-  
+
 - year: 2012-2013
   image: /assets/images/teams/2013.jpg
   leadership: >
@@ -140,40 +138,39 @@
     Programming Captain: Julian Nowaczek<br/>
     Art/Design Captain: Ayla Rubenstien<br/>
     Electrical Captain: Cory Spawn<br/>
-    
+
   challenge: Ultimate Ascent
   members: 34
   about:
-  
+
 - year: 2011-2012
   image: /assets/images/teams/2012.jpg
   leadership: >
     Captain: Jimmy Fedor
   challenge: Rebound Rumble
-  about:
-    Fun fact! We went to state for the first time with this team and won!
-  
+  about: Fun fact! We went to state for the first time with this team and won!
+
 - year: 2010-2011
   image: /assets/images/teams/2011.jpg
   leadership: >
     Captain: Sean Quinn
   challenge: Logomotion
   about:
-  
+
 - year: 2009-2010
   image: /assets/images/teams/2010.jpg
   leadership: >
     Captain: Sean Quinn
   challenge: Breakaway
   about:
-  
+
 - year: 2008-2009
   image: /assets/images/teams/2009.jpg
   leadership: >
     Captain: Ben Johnson
   challenge: Lunacy
   about:
-  
+
 - year: 2007-2008
   image: /assets/images/teams/2008.jpg
   leadership: >

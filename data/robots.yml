@@ -22,12 +22,12 @@
   image: /assets/images/robots/2023.jpg
   record: 4-6-0 (Great Northern), 2-7-0 (10,000 Lakes)
   ranking: 25 (Great Northern), 57 (10,000 Lakes)
-  about: > 
+  about: >
     This year, for the Charged Up challenge, we designed a robot to move both types of game pieces and at the end, balance on the
     charging platform utilizing a balancing algorithm. This robot specialized in moving the cones and as such had a mechanical arm
     with a mechanism on the end to make sure all cones picked up were in the upright position. At the end of the match, using the
     algorithm previously mentioned, we would balance onto the charging station.
-  challenge: > 
+  challenge: >
     Charged Up, the challenge for 2023 presented by Haas is a energy themed competition. Each alliance must design a robot to
     pick up the cone/cube game pieces along with balancing on a seesaw type mechanism called the charging station. There are 3 levels
     of height to put the cone and cube pieces on with the bottom row being a hybrid section that both cone and cubes can go in.
@@ -39,7 +39,7 @@
   image: /assets/images/robots/2022.jpg
   record: 6-7-0
   ranking: 17
-  about: > 
+  about: >
     Our robot for the Rapid React challenge focused on defense and climbing. During the autonomous phase, we would drop one ball into
     the lower goal. Throughout the main portion of the match we played defense by holding onto the opponents balls and blocking them
     from shooting. Before the end, we would get ready at the 4 bars and once it was time to climb, we would go directly to the upper 
@@ -55,15 +55,15 @@
   image: /assets/images/robots/2020.jpg
   record: 2-7-0
   ranking: 52
-  about: > 
+  about: >
     This years robot could store up to 5 dino skinned balls utilizing a positioning system coded into the robot. 
     It also had compressed air cans which refilled during the match, when it was time to use them, it would extend 
     arms up to fulfill the climbing challenge.
-  challenge: > 
+  challenge: >
     Infinite recharge was a partnership with Lucas Film. The matches were centered around a futuristic city modeled after Star Wars.
     The objective of the game was to prevent an astriod from hitting the city by shooting powercells into generators. 
     You would activate the generators by shooting foam balls into high and low goals. At the end of the match, robots would return to
-    the shield generators to score additional points.  
+    the shield generators to score additional points.
 
 - name: Newton - Semifinalist at 10,000 Lakes Regionals
   hidden: false
@@ -75,18 +75,18 @@
     This robot can intake cargo with a wheel system and 
     score on the low and mid level rocketships and the front and top
     cargoship. Using 3 linear actuators, this robot can climb to each 
-    level of the alliance habitat at the end of each match.  
+    level of the alliance habitat at the end of each match.
   challenge: >
     Destination: Deep Space is centered around space and the two teams 
     compete to place poly-carbonate hatch covers and orange rubber balls or "cargo" 
     on rockets and cargo ships before returning to their HAB platform to climb at the end of the match.
-  
+
 - name: T-Shirt Launcher
   year: 2015-2024
   image: /assets/images/robots/tshirt.jpg
   about: >
     Launches t-shirts at games at Stillwater Area High School and other outreach events. In 2023 it had a large makeover
-    from the old cRIO control system to the newer roboRIO control system. 
+    from the old cRIO control system to the newer roboRIO control system.
 
 - name: Phineas
   year: 2018
@@ -122,13 +122,13 @@
   ranking: 25
   about: >
     Can collect and launch balls with visual tracking and could go over one of the terrains
-    
+
   challenge: >
     In FIRST Stronghold, teams compete against each other to breach their opponents’ defenses and 
     capture their tower. Teams score points by crossing elements of their 
     opponents’ outer works, scoring boulders in their opponents’ tower goals, and
-    surrounding and scaling their opponents’ tower itself.   
-    
+    surrounding and scaling their opponents’ tower itself.
+
 - name: The Recycler
   year: 2015
   image: /assets/images/robots/2015.jpg
@@ -141,7 +141,7 @@
     Scoring Platforms, capping those stacks with Recycling Containers, and properly disposing of Litter, 
     represented by pool noodles, in designated locations. In keeping with the recycling theme of the
     game, all scoring elements used are reusable or recyclable by teams in their home locations or by FIRST at the end of the season.
-    
+
 - name: The Sniper
   year: 2014
   image: /assets/images/robots/2014.jpg
@@ -154,7 +154,7 @@
     truss suspended just over five feet above the floor. The objective is to score as many balls in goals as possible during 
     a match. The more Alliances score their ball in their goals, and the more they work together to do it, the more points 
     their Alliance receives.
-    
+
 - name: The Frisbro
   year: 2013
   image: /assets/images/robots/2013.jpg
@@ -166,7 +166,7 @@
     Ultimate Ascent is played by two competing alliances on a large field. Each team competes to score as 
     many discs into their goals as they can during a match. The higher the goal in which the disc is scored, 
     the more points the alliance receives. The match ends with robots attempting to climb on pyramids located 
-    near the middle of the field. The robot earns points based on how high it climbs. 
+    near the middle of the field. The robot earns points based on how high it climbs.
 
 - name: The Rebounder - State Champion
   year: 2012
@@ -196,8 +196,8 @@
     on the grid, the more points the alliance receives.  Any logo piece hung on the same 
     peg as an Ubertube receives double points. If the logo pieces are assembled in the
     order of the FIRST logo (triangle, circle, then square) the points for the row are doubled.
-    
-- name: Kelly   
+
+- name: Kelly
   year: 2010
   image: /assets/images/robots/2010.jpg
   about: >
@@ -215,7 +215,7 @@
     players must pick up the balls and pass them to the center of the alliance station to be placed on a ball 
     return rack, after which they will re-enter play at midfield. Teams are penalized if balls are not re-entered 
     within a set time limit.
-    
+
 - name: Jesse
   year: 2009
   image: /assets/images/robots/2009.jpg

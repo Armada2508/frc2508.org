@@ -11,7 +11,7 @@
 - name: PMMI
   url: https://www.pmmi.org
   image: /assets/images/brands/pmmi.jpg
-  about: > 
+  about: >
     With over 800 members, PMMI is a trade association whose companies distribute packaging containers, supplies, machinery, and machinery parts.
 
 - name: Delta ModTech
@@ -19,13 +19,13 @@
   image: /assets/images/brands/deltaModTech.jpg
   about: >
     Delta ModTech is a manufacturing solutions company. They specialize in machinery for web converting and packaging, RFID, custom automation machinery, and more. They are located in Coon Rapids, Minnesota, and their machines are comprised of modules.
-  
+
 - name: Medtronic
   url: https://www.automationinc.com/
   image: /assets/images/brands/Medtronic.png
   about: >
     Medtronic is a medical device company dedicated to creating better health access for the world.
-  
+
 - name: Stillwater Glass
   url: https://stillwaterglass.com/
   image: /assets/images/brands/StillwaterGlass.png
@@ -36,19 +36,19 @@
   url: http://www.partnershipplan.org/
   image: /assets/images/brands/PartnershipPlanLogo.png
   about: >
-    The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.  
-    
+    The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.
+
 - name: Aerojet Rocketdyne
   url: https://www.l3harris.com/company/aerojet-rocketdyne
   image: /assets/images/brands/aerojetLogo.png
   about: >
     Aerojet Rocketdyne is an aerospace and defense company specializing in propulsion systems for national security, space exploration, and other commercial uses.
-  
+
 #- name: Culvers
-#  url: 
+#  url:
 #  image: /assets/images/brands/culvers.png
 #  about: >
-#    With 700 locations, Culvers is a primarily Midwestern fast-food chain known for its custard, burgers, and cheese curds. 
+#    With 700 locations, Culvers is a primarily Midwestern fast-food chain known for its custard, burgers, and cheese curds.
 #
 #- name: Arby’s
 #  url: https://www.arbys.com
@@ -66,24 +66,24 @@
 #   url: http://www.polaris.com/en-us/home.aspx
 #   image: /assets/images/brands/polaris_logo.jpg
 #   about: >
-#     Polaris is an American manufacturer of snowmobiles, ATVs, and neighborhood electric vehicles, 
-#     with a firm belief in the ethics and value of their employees. Polaris endeavors to manufacture 
-#     great products by working with integrity, innovation, passion for excellence, focus on customers, 
+#     Polaris is an American manufacturer of snowmobiles, ATVs, and neighborhood electric vehicles,
+#     with a firm belief in the ethics and value of their employees. Polaris endeavors to manufacture
+#     great products by working with integrity, innovation, passion for excellence, focus on customers,
 #     and other commendable company values.
 
 # - name: United Hardware
 #   url: https://unitedhardware.com/Default.aspx
 #   image: /assets/images/brands/hardware_logo.jpg
 #   about: >
-#     United Hardware is a distributing company located in Plymoth, MN. They supply hardware items to about 
+#     United Hardware is a distributing company located in Plymoth, MN. They supply hardware items to about
 #     610 businesses. Most of their supplies goes Hardware Hank stores, which is owned by United Hardware.
 
 # - name: Vistatek
 #   url: http://www.vistatek.com/
 #   image: /assets/images/brands/VistaTek_logo.jpg
 #   about: >
-#     VistaTek is a family-owned manufacturing company located in Stillwater, MN. The company’s state-of-the-art 
-#     software and in-house technologies allow it to efficiently assist customers with small to large projects. 
+#     VistaTek is a family-owned manufacturing company located in Stillwater, MN. The company’s state-of-the-art
+#     software and in-house technologies allow it to efficiently assist customers with small to large projects.
 #     Furthermore, VistaTek’s expert staff help customers get their products to the market as quickly and cost-efficiently as possible.
 
 #- name: Anderson Corporation

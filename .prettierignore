@@ -1,6 +1,6 @@
+# File for the Prettier code formatter
 # Ignore artifacts:
 build
-data
 source/assets/documents
 source/assets/images
 source/assets/javascripts/bootstrap.js
