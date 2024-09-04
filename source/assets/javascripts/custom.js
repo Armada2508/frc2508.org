@@ -6,8 +6,8 @@ $('body').scrollspy({
 
 $('.carousel').each(function() {
   var speed = 5000;
-  if ($(this).attr('rel-speed') != null) {
-  	speed = $(this).attr('rel-speed');
+  if ($(this).data('rel-speed') != null) {
+  	speed = $(this).data('rel-speed');
   }
   $(this).carousel({
   	interval: speed
