@@ -1,0 +1,27 @@
+name: Build
+
+on: 
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.4'
+      - name: Install bundled gems
+        run: bundle install
+      - name: Build site
+        run: bundle exec middleman build --verbose
+      - name: Check HTML
+        uses: anishathalye/proof-html@v2
+        with:
+          directory: ./build
