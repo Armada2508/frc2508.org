@@ -1,4 +1,3 @@
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -78,7 +77,6 @@
   background: rgba(0, 0, 0, 0.75);
 }
 
-
 .carousel-position {
   width: 100%;
   height: 50%; /* was 400 */
@@ -108,33 +106,33 @@
   margin-bottom: 35px;
 }
 
-#profile-column-member{
+#profile-column-member {
   padding-top: 10px;
   height: 125px;
 }
 
-#profile-column-coach{
+#profile-column-coach {
   height: 125px;
 }
 
-#member-header{
+#member-header {
   margin-bottom: 20px;
 }
 
-.large-header{
+.large-header {
   line-height: 90%;
   margin-bottom: 20px;
 }
 
-.single-spaced{
+.single-spaced {
   line-height: 50%;
 }
 
-.double-spaced{
-  line-height: 200%
+.double-spaced {
+  line-height: 200%;
 }
 
-#howtodonate{
+#howtodonate {
   /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
@@ -142,21 +140,21 @@
   margin-bottom: 30px;
 }
 
-.affix{
+.affix {
   position: fixed;
 }
 
-#fixed-menu{
+#fixed-menu {
   width: 180px;
   top: 20px;
 }
 
-.center{
+.center {
   margin-right: auto;
   margin-left: auto;
 }
 
-.about-block{
+.about-block {
   margin-bottom: 20px;
 }
 
@@ -164,11 +162,11 @@
   height: 7px;
 }
 
-#sponsor div.row{
-  margin-bottom:95px; 
+#sponsor div.row {
+  margin-bottom: 95px;
 }
 
-#sponsor hr{
+#sponsor hr {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -181,12 +179,12 @@
 }
 .sponsorlogo img {
   max-width: 200px;
-  max-height:200px;
+  max-height: 200px;
   margin-left: 50%;
   margin-right: 50%;
 }
 
-#logo-column{
+#logo-column {
   position: relative;
 }
 
@@ -211,7 +209,7 @@ div.featurette {
   width: 100%;
   padding: 0;
   margin: 0;
-  }
+}
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -221,13 +219,13 @@ div.featurette {
   width: 100%;
   left: 0;
   top: 0;
-  }
+}
 
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
-  }
+}
 
 .rslides img {
   display: block;
@@ -235,7 +233,7 @@ div.featurette {
   float: left;
   width: 100%;
   border: 0;
-  }
+}
 
 .delayrslides {
   position: relative;
@@ -244,7 +242,7 @@ div.featurette {
   width: 100%;
   padding: 0;
   margin: 0;
-  }
+}
 
 .delayrslides li {
   -webkit-backface-visibility: hidden;
@@ -254,13 +252,13 @@ div.featurette {
   width: 100%;
   left: 0;
   top: 0;
-  }
+}
 
 .delayrslides li:first-child {
   position: relative;
   display: block;
   float: left;
-  }
+}
 
 .delayrslides img {
   display: block;
@@ -268,14 +266,14 @@ div.featurette {
   float: left;
   width: 100%;
   border: 0;
-  }
+}
 
-  #about-col{
-    height: 130px;
-  }
+#about-col {
+  height: 130px;
+}
 
-  #socialmedia {
-      text-align: center;
-      margin-top: 50px;
-      margin-bottom: 50px;
-  }
+#socialmedia {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

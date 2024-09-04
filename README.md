@@ -4,7 +4,7 @@ The official Armada Robotics 2508 website. Created using [Ruby](https://www.ruby
 
 ### Bugs/Enhancements
 
-New features, suggestions, and existing bugs should be tracked on the [Github issues](https://github.com/Armada2508/frc2508.org/issues) page. 
+New features, suggestions, and existing bugs should be tracked on the [Github issues](https://github.com/Armada2508/frc2508.org/issues) page.
 
 ### Setup
 
