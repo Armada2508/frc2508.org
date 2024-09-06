@@ -22,5 +22,16 @@ activate :livereload
 # Production
 configure :build do
   activate :minify_css
-  activate :minify_javascript
+  # Minify javascript, this uses Terser instead of the stock middleman minifier to support > ES5
+  # I have to shim the constructor because otherwise it tries to grab something from Rails
+  class ::Terser::Compressor
+    def initialize(options = {})
+      options[:comments] ||= :none
+      @options = options
+      @cache_key = -"Terser:#{::Terser::VERSION}:#{VERSION}:#{::Sprockets::DigestUtils.digest(options)}"
+      @terser = ::Terser.new(@options)
+    end
+  end
+  sprockets.register_compressor 'application/javascript', :terser, Terser::Compressor
+  sprockets.js_compressor = :terser
 end
