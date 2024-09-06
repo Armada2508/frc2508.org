@@ -1,0 +1,9 @@
+# File for the Prettier code formatter
+# Ignore artifacts:
+build
+source/assets/documents
+source/assets/images
+source/assets/javascripts/bootstrap.js
+source/assets/javascripts/jquery.js
+source/assets/stylesheets/bootstrap-red.css
+source/assets/stylesheets/bootstrap.css

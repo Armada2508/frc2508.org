@@ -1,6 +1,6 @@
 /* Navigation */
 
-body { 
+body {
   padding-top: 65px !important;
 }
 
@@ -12,11 +12,11 @@ body {
   height: 34px;
 }
 
-*[id]:before { 
-  display: block; 
-  content: " "; 
+*[id]:before {
+  display: block;
+  content: " ";
   margin-top: -70px;
-  height: 70px; 
+  height: 70px;
   visibility: hidden;
 }
 
@@ -55,6 +55,6 @@ body {
   color: #555;
 }
 
-.footer .container{
-  margin-bottom: -10px
+.footer .container {
+  margin-bottom: -10px;
 }

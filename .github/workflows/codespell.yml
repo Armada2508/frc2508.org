@@ -1,6 +1,6 @@
 name: Codespell
 
-on: 
+on:
   push:
     branches:
       - master
@@ -11,8 +11,7 @@ jobs:
     name: Codespell
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
-    - name: Run codespell
-      uses: codespell-project/actions-codespell@v2
-    
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Run codespell
+        uses: codespell-project/actions-codespell@v2
