@@ -24,6 +24,7 @@ configure :build do
   activate :minify_css
   # Minify javascript, this uses Terser instead of the stock middleman minifier to support > ES5
   # I have to shim the constructor because otherwise it tries to grab something from Rails
+  # Maintaining this might not be worth just not minfiying our javascript
   class ::Terser::Compressor
     def initialize(options = {})
       options[:comments] ||= :none
