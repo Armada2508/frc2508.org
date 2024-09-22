@@ -8,7 +8,10 @@
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <%= stylesheet_link_tag config[:theme], "main", "old" %>
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  <link rel="stylesheet" href="/assets/stylesheets/old.css">
+  <link rel="stylesheet" href="/assets/stylesheets/<%= [:theme] %>.css">
+
   <meta name="google-site-verification" content="6AA5xLhIme9sFY9VNKZKcM5rJ_OsB96Q9FyPh2ZooIs" />
 </head>
 <body>
@@ -51,7 +54,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="first">
             <a href="https://www.firstinspires.org/robotics/frc" target="_blank">
-              <%= image_tag "social_media/first-logo.gif" %>
+              <img src="/assets/images/social_media/first-logo.gif" alt="first logo">
             </a>
           </li>
         </ul>
@@ -94,7 +97,7 @@
     </div>
   </footer>
   
-  <%= javascript_include_tag  "all" %>
+  <script src="/assets/javascripts/all.js"></script>
 
 </body>
 
