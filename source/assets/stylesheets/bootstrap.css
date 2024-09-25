@@ -142,8 +142,8 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
-  appearance: button;
+  -webkit-appearance: auto;
+  appearance: auto;
   cursor: pointer;
 }
 button[disabled],
@@ -173,8 +173,8 @@ input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
-  -webkit-appearance: textfield;
-  appearance: textfield;
+  -webkit-appearance: auto;
+  appearance: auto;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
