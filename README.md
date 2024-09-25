@@ -8,7 +8,7 @@ New features, suggestions, and existing bugs should be tracked on the [Github is
 
 ### Setup
 
-1. Install the latest version of Ruby (use http://rubyinstaller.org for Windows).
+1. Install the latest version of Ruby (use https://rubyinstaller.org for Windows).
 2. Clone this repository with `git clone https://github.com/Armada2508/frc2508.org.git`.
 3. Navigate to the root directory of this repository in a command prompt.
 4. Type `bundle install` (you may need `gem install bundle` first).

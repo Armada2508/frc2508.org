@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title><%= yield_content :title %> » Armada Robotics</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <%= stylesheet_link_tag config[:theme], "main", "old" %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  <link rel="stylesheet" href="/assets/stylesheets/old.css">
+  <link rel="stylesheet" href="/assets/stylesheets/<%= config[:theme] %>.css">
+
   <meta name="google-site-verification" content="6AA5xLhIme9sFY9VNKZKcM5rJ_OsB96Q9FyPh2ZooIs" />
 </head>
 <body>
@@ -50,7 +54,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="first">
             <a href="https://www.firstinspires.org/robotics/frc" target="_blank">
-              <%= image_tag "social_media/first-logo.gif" %>
+              <img src="/assets/images/social_media/first-logo.gif" alt="first logo">
             </a>
           </li>
         </ul>
@@ -85,7 +89,7 @@
           <a href="https://www.firstinspires.org/robotics/frc" class="pull-right" target="_blank">
             <img src="/assets/images/brands/frc.png" alt="frc logo" style="width: 80px" />
           </a>
-          <a href="http://www.stillwater.k12.mn.us" class="pull-right" style="margin-right: 30px" target="_blank">
+          <a href="https://www.stillwater.k12.mn.us" class="pull-right" style="margin-right: 30px" target="_blank">
             <img src="/assets/images/brands/pony-pride.png" alt="stillwater schools logo" style="width: 50px" />
           </a>
         </div>
@@ -93,9 +97,7 @@
     </div>
   </footer>
   
-  <%= javascript_include_tag  "all" %>
-  <!-- Google+ Button Script -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="/assets/javascripts/all.js"></script>
 
 </body>
 
