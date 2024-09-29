@@ -1,5 +1,5 @@
 - name: 3M
-  url: http://www.3m.com
+  url: https://www.3m.com
   image: /assets/images/brands/3MLogo.png
   about: >
     The 3M Company, is a United States multinational conglomerate corporation based in 
@@ -33,7 +33,7 @@
     Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
 
 - name: Partnership Plan
-  url: http://www.partnershipplan.org/
+  url: https://www.partnershipplan.org/
   image: /assets/images/brands/PartnershipPlanLogo.png
   about: >
     The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.
@@ -63,7 +63,7 @@
 #    Kowalski’s Market is a midwestern grocery store chain carrying a wide variety of every day & specialty items, focusing on local producers.
 #
 # - name: Polaris
-#   url: http://www.polaris.com/en-us/home.aspx
+#   url: https://www.polaris.com/en-us/home.aspx
 #   image: /assets/images/brands/polaris_logo.jpg
 #   about: >
 #     Polaris is an American manufacturer of snowmobiles, ATVs, and neighborhood electric vehicles,
@@ -79,7 +79,7 @@
 #     610 businesses. Most of their supplies goes Hardware Hank stores, which is owned by United Hardware.
 
 # - name: Vistatek
-#   url: http://www.vistatek.com/
+#   url: https://www.vistatek.com/
 #   image: /assets/images/brands/VistaTek_logo.jpg
 #   about: >
 #     VistaTek is a family-owned manufacturing company located in Stillwater, MN. The company’s state-of-the-art
