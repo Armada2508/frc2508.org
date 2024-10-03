@@ -14,6 +14,8 @@ New features, suggestions, and existing bugs should be tracked on the [Github is
 4. Type `bundle install` (you may need `gem install bundle` first).
 5. If you're using VSCode I recommend installing [this extension](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) for improved syntax highlighting.
 
+### Code Formatting
+
 ### Run Website Locally
 
 1. Run `bundle exec middleman server`.
