@@ -1,46 +1,35 @@
 <% content_for :title, "Sponsors" %>
-
 <div class="jumbotron">
   <h4>Armada thanks its wonderful sponsors for their vital and generous support. <a href="#howtosponsor">Learn how to become a sponsor.</a></h4>
 </div>
-
 <div id="data.sponsor">
   <% data.sponsors.each do |sponsor| %>
     <div class = "row">
-
       <div class = "sponsorlogo">
         <div style = "float: left; margin-right: 150px; margin-left: 0px;">
           <img src = <%= sponsor.image %> alt="sponsor logo">
         </div>
       </div>
-
       <div class = "sponsorabout">
         <div style = "margin-right: 50px; margin-left: 350px;">
           <h3> <strong> <a href="<%= sponsor.url %>" target="_blank"><%= sponsor.name %></a> </strong> </h3>
           <h4> <%= sponsor.about %> </h4>
         </div>
       </div>
-
       <hr style = "width: 100%;">
-
     </div>
   <% end %>
 </div>
-
-
 <div class="jumbotron">
   <h3 class="center" id="howtosponsor">How To Sponsor Armada:</h3>
-
-    <h4>We are in continual need of sponsors to achieve our goals. If you would like to sponsor us, we are in need of many different types of support. Donations of materials, money, and time are all
+  <h4>We are in continual need of sponsors to achieve our goals. If you would like to sponsor us, we are in need of many different types of support. Donations of materials, money, and time are all
     greatly appreciated. If you would like additional information about our team or what we are able to provide in return, please contact Cody Rasch at <a class="fancylink" href=
     "mailto:armada.robotics2508@gmail.com">armada.robotics2508@gmail.com</a>. If you would like to support us monetarily, checks can be sent to:</h4>
-
-    <address>
-      Stillwater Area High School<br>
-      Attn: Christopher Mentz (Robotics)<br>
-      5701 Stillwater Blvd N.<br>
-      Stillwater, MN 55082
-    </address>
-
-    <p>All donations are tax deductible.</p>
+  <address>
+    Stillwater Area High School<br>
+    Attn: Christopher Mentz (Robotics)<br>
+    5701 Stillwater Blvd N.<br>
+    Stillwater, MN 55082
+  </address>
+  <p>All donations are tax deductible.</p>
 </div>

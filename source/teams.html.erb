@@ -1,5 +1,4 @@
 <% content_for :title, "Teams" %>
-
 <% data.teams.each do |team| %>
   <% next if team.hidden.present? && team.hidden %>
   <div class="row">
@@ -11,7 +10,6 @@
       </div>
     </div>
   </div>
-
   <div class="row">
     <div class="col-lg-4">
       <% if team.image.present? %>
@@ -49,5 +47,4 @@
       <% end %>
     </div>
   </div>
-
 <% end %>
