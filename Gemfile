@@ -10,6 +10,9 @@ gem "middleman-livereload"
 # JavaScript
 gem 'middleman-sprockets'
 
+# Formatting ERB/HTML files
+gem 'htmlbeautifier'
+
 gem "bigdecimal"
 gem "mutex_m"
 gem "base64"

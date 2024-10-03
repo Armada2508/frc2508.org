@@ -37,6 +37,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.6.0)
+    htmlbeautifier (1.4.3)
     http_parser.rb (0.8.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
@@ -135,6 +136,7 @@ DEPENDENCIES
   base64
   bigdecimal
   csv
+  htmlbeautifier
   middleman
   middleman-livereload
   middleman-sprockets
