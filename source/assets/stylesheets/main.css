@@ -80,17 +80,17 @@ body {
 }
 
 .sponsorlogo {
-  margin-top: 25px;
-
-  width: inherit;
-  height: inherit;
+  margin-left: 75px;
 }
 
 .sponsorlogo img {
   max-width: 200px;
   max-height: 200px;
-  margin-left: 50%;
-  margin-right: 50%;
+}
+
+.sponsorabout {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .container-marketing {

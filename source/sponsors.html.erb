@@ -4,20 +4,16 @@
 </div>
 <div id="data.sponsor">
   <% data.sponsors.each do |sponsor| %>
-    <div class = "row">
-      <div class = "sponsorlogo">
-        <div style = "float: left; margin-right: 150px; margin-left: 0px;">
-          <img src = <%= sponsor.image %> alt="sponsor logo">
-        </div>
+    <div style="display: flex; margin-top: 25px;">
+      <div class="sponsorlogo">
+        <img src=<%= sponsor.image %> alt="sponsor logo">
       </div>
-      <div class = "sponsorabout">
-        <div style = "margin-right: 50px; margin-left: 350px;">
-          <h3> <strong> <a href="<%= sponsor.url %>" target="_blank"><%= sponsor.name %></a> </strong> </h3>
-          <h4> <%= sponsor.about %> </h4>
-        </div>
+      <div class="sponsorabout">
+        <h3 style="margin-top: 0;"><strong><a href="<%= sponsor.url %>" target="_blank"><%= sponsor.name %></a></strong></h3>
+        <h4> <%= sponsor.about %> </h4>
       </div>
-      <hr style = "width: 100%;">
     </div>
+    <hr style="width: 100%;">
   <% end %>
 </div>
 <div class="jumbotron">
