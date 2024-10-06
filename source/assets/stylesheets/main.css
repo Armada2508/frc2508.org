@@ -89,6 +89,13 @@ body {
   min-width: 600px;
 }
 
+.sponsorabout h3 {
+  margin-top: 0;
+  position: sticky;
+  left: 0;
+  width: fit-content;
+}
+
 .center {
   margin-right: auto;
   margin-left: auto;

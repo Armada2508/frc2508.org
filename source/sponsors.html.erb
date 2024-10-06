@@ -2,14 +2,14 @@
 <div class="jumbotron">
   <h4>Armada thanks its wonderful sponsors for their vital and generous support. <a href="#howtosponsor">Learn how to become a sponsor.</a></h4>
 </div>
-<div style="overflow: auto;">
+<div style="overflow-x: auto;">
   <% data.sponsors.each do |sponsor| %>
     <div style="display: flex; margin-top: 25px;">
       <div class="sponsorlogo">
         <img src=<%= sponsor.image %> alt="sponsor logo">
       </div>
       <div class="sponsorabout">
-        <h3 style="margin-top: 0;"><strong><a href="<%= sponsor.url %>" target="_blank"><%= sponsor.name %></a></strong></h3>
+        <h3><strong><a href="<%= sponsor.url %>" target="_blank"><%= sponsor.name %></a></strong></h3>
         <h4> <%= sponsor.about %> </h4>
       </div>
     </div>
