@@ -42,6 +42,12 @@ VSCode user settings.json
 "[erb][css][javascript][yaml]": {
     "editor.formatOnSave": true
 },
+"[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+},
+"[css][javascript][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
 ```
 
 ### Running the Website Locally
