@@ -10,7 +10,7 @@
 
 - name: PMMI
   url: https://www.pmmi.org
-  image: /assets/images/brands/pmmi.jpg
+  image: /assets/images/brands/pmmi.png
   about: >
     With over 800 members, PMMI is a trade association whose companies distribute packaging containers, supplies, machinery, and machinery parts.
 
@@ -40,7 +40,7 @@
 
 - name: Aerojet Rocketdyne
   url: https://www.l3harris.com/company/aerojet-rocketdyne
-  image: /assets/images/brands/aerojetLogo.png
+  image: /assets/images/brands/aerojetLogo.jpg
   about: >
     Aerojet Rocketdyne is an aerospace and defense company specializing in propulsion systems for national security, space exploration, and other commercial uses.
 

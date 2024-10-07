@@ -49,11 +49,6 @@ body {
   padding-right: 15px;
 }
 
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
 .large-header {
   line-height: 90%;
   margin-bottom: 20px;
@@ -70,27 +65,40 @@ body {
   margin-bottom: 30px;
 }
 
-.center {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .about-block {
   margin-bottom: 20px;
 }
 
-.sponsorlogo {
-  margin-top: 25px;
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
 
-  width: inherit;
-  height: inherit;
+.sponsorlogo {
+  margin-left: 85px;
 }
 
 .sponsorlogo img {
   max-width: 200px;
   max-height: 200px;
-  margin-left: 50%;
-  margin-right: 50%;
+}
+
+.sponsorabout {
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: 600px;
+}
+
+.sponsorabout h3 {
+  margin-top: 0;
+  position: sticky;
+  left: 0;
+  width: fit-content;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-marketing {
