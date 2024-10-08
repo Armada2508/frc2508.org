@@ -1,0 +1,12 @@
+<% content_for :title, "CAD" %>
+<div style="height: 500px;">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  <model-viewer 
+    alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" 
+    style="width: inherit; height:inherit;"
+    camera-orbit="45deg 55deg 125%" 
+    min-field-of-view="5deg"
+    auto-rotate rotation-per-second="10deg" 
+    interaction-prompt-style="basic" 
+    shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+</div>
