@@ -24,4 +24,5 @@ jobs:
       - name: Check HTML
         uses: anishathalye/proof-html@v2
         with:
-          directory: ./build
+          entrypoint: htmlproofer
+          args: ./build --disable-external
