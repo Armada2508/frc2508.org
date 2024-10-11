@@ -7,6 +7,9 @@ gem "middleman"
 # Live-reloading plugin
 gem "middleman-livereload"
 
+# For faster file watcher updates on Windows
+gem "wdm", "~> 0.2.0"
+
 # JavaScript
 gem 'middleman-sprockets'
 
