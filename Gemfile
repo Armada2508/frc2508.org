@@ -8,7 +8,7 @@ gem "middleman"
 gem "middleman-livereload"
 
 # For faster file watcher updates on Windows
-gem "wdm", "~> 0.2.0"
+gem "wdm", "~> 0.2.0" if Gem.win_platform?
 
 # JavaScript
 gem 'middleman-sprockets'
