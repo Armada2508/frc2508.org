@@ -27,3 +27,15 @@ $("a").click(function () {
   );
   return false;
 });
+
+$(document).ready(() => {
+  if (document.location.pathname.startsWith("/cad")) {
+    window.onhashchange = () => window.location.reload();
+    const modelName = window.location.hash.substring(1);
+    if (modelName) {
+      document
+        .getElementById("cad-viewer")
+        .setAttribute("src", "assets/models/" + modelName + ".glb");
+    }
+  }
+});

@@ -38,6 +38,12 @@
             <td><%= robot.record %></td>
           </tr>
         <% end %>
+        <% if robot.cad.present? %>
+          <tr>
+            <th>CAD</th>
+            <td><a href="/cad#<%= robot.cad %>" id="cad-link">Galleon</a></td>
+          </tr>
+        <% end %>
       </table>
     </div>
     <div class="col-lg-8">
