@@ -22,7 +22,7 @@ jobs:
       - name: Build site
         run: bundle exec middleman build --verbose
       - name: Check HTML
-        uses: anishathalye/proof-html@v2
+        uses: WispySparks/proof-html@master
         with:
-          entrypoint: htmlproofer
-          args: ./build --disable-external
+          directory: ./build
+          disable_external: true
