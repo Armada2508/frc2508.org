@@ -41,7 +41,7 @@
         <% if robot.cad.present? %>
           <tr>
             <th>CAD</th>
-            <td><a href="/cad#<%= robot.cad %>" id="cad-link">Galleon</a></td>
+            <td><a href="/cad#<%= robot.cad %>" id="cad-link"><%= robot.cad.capitalize %></a></td>
           </tr>
         <% end %>
       </table>
