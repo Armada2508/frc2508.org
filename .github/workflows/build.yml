@@ -22,7 +22,7 @@ jobs:
       - name: Build site
         run: bundle exec middleman build --verbose
       - name: Check HTML
-        uses: WispySparks/proof-html@master
+        uses: WispySparks/proof-html@disable_external-option
         with:
           directory: ./build
           disable_external: true
