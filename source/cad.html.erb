@@ -2,7 +2,8 @@
 <div style="height: 500px;">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
   <model-viewer 
-    alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" 
+    <%# Default model is Galleon %>
+    alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" id="cad-viewer"
     style="width: inherit; height:inherit;"
     camera-orbit="45deg 55deg 125%" 
     min-field-of-view="5deg"
