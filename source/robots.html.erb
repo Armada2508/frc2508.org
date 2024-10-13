@@ -17,7 +17,7 @@
         <img src="<%= robot.image %>" alt="robot photo" class="img-thumbnail" />
       <% end %>
       <p></p>
-      <table class="table table-bordered">
+      <table class="table table-bordered" style="margin-bottom: 0;">
         <tr>
           <th>Name</th>
           <td><%= robot.name %></td>
@@ -38,13 +38,10 @@
             <td><%= robot.record %></td>
           </tr>
         <% end %>
-        <% if robot.cad.present? %>
-          <tr>
-            <th>CAD</th>
-            <td><a href="/cad#<%= robot.cad %>" id="cad-link"><%= robot.cad.capitalize %></a></td>
-          </tr>
-        <% end %>
       </table>
+      <% if robot.cad.present? %>
+        <a href="/cad#<%= robot.cad %>" class="btn btn-primary" style="width: 100%;"><strong>CAD</strong></a>
+      <% end %>
     </div>
     <div class="col-lg-8">
       <b>The Robot:</b>

@@ -33,9 +33,9 @@ $(document).ready(() => {
     window.onhashchange = () => window.location.reload();
     const modelName = window.location.hash.substring(1);
     if (modelName) {
-      document
-        .getElementById("cad-viewer")
-        .setAttribute("src", "assets/models/" + modelName + ".glb");
+      const modelViewer = document.getElementById("cad-viewer");
+      modelViewer.setAttribute("poster", "assets/images/robots/2024.jpg"); //? Should be dynamic
+      modelViewer.setAttribute("src", "assets/models/" + modelName + ".glb");
     }
   }
 });

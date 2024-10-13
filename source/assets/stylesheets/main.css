@@ -102,11 +102,3 @@ body {
 div.featurette {
   margin-top: 50px;
 }
-
-a#cad-link {
-  text-decoration: none;
-}
-
-a#cad-link:hover {
-  text-decoration: underline;
-}
