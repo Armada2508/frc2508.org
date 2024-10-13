@@ -1,12 +1,16 @@
 <% content_for :title, "CAD" %>
-<div style="height: 500px;">
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-  <model-viewer 
-    <%# Default model is Galleon %>
-    alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" poster="assets/images/robots/2024.jpg" 
-    id="cad-viewer" style="width: inherit; height:inherit;"
-    camera-orbit="45deg 55deg 125%" min-field-of-view="5deg"
-    auto-rotate rotation-per-second="10deg" 
-    loading="eager" interaction-prompt-style="basic" 
-    shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<div>
+  <div style="height: 500px;">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <model-viewer 
+      <%# Default model is Galleon %>
+      alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" poster="assets/images/robots/2024.jpg" 
+      id="cad-viewer" style="width: inherit; height:inherit;"
+      camera-orbit="45deg 55deg 125%" min-field-of-view="5deg"
+      auto-rotate rotation-per-second="10deg" 
+      loading="eager" interaction-prompt-style="basic" 
+      shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+  </div>
+  <a href="/index.html" <%# Should be changed to the step file download under releases %>
+    class="btn btn-primary" style="display: block; margin: 20px auto 0 auto;" download>Download .STEP file</a>
 </div>
