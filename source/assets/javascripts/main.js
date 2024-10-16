@@ -17,6 +17,5 @@ $(".carousel").each(function () {
 $("a[href^='/']").click(function () {
   const prefix = document.body.dataset.path_prefix;
   const href = $(this).attr("href");
-  console.log(prefix + href);
   $(this).attr("href", prefix + href);
 });

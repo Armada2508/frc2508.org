@@ -25,22 +25,22 @@
         </div>
         <div id="navbar-main" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li <%= "class='active'" if current_page.path == "about.html" %>>
+            <li <%= "class='active'" if current_page.url == "/about/" %>>
               <a href="/about">About</a>
             </li>
-            <li <%= "class='active'" if current_page.path == "robots.html" %>>
+            <li <%= "class='active'" if current_page.url == "/robots/" %>>
               <a href="/robots">Robots</a>
             </li>
-            <li <%= "class='active'" if current_page.path == "teams.html" %>>
+            <li <%= "class='active'" if current_page.url == "/teams/" %>>
               <a href="/teams">Teams</a>
             </li>
-            <li <%= "class='active'" if current_page.path == "resources.html" %>>
+            <li <%= "class='active'" if current_page.url == "/resources/" %>>
               <a href="/resources">Resources</a>
             </li>
-            <li <%= "class='active'" if current_page.path == "sponsors.html" %>>
+            <li <%= "class='active'" if current_page.url == "/sponsors/" %>>
               <a href="/sponsors">Sponsors</a>
             </li>
-            <li <%= "class='active'" if current_page.path == "donate.html" %>>
+            <li <%= "class='active'" if current_page.url == "/donate/" %>>
               <a href="/donate">Donate</a>
             </li>
           </ul>
