@@ -13,12 +13,10 @@ $(".carousel").each(function () {
   });
 });
 
-$("a").click(function () {
-  $("html, body").animate(
-    {
-      scrollTop: $($.attr(this, "href")).offset().top,
-    },
-    500,
-  );
-  return false;
+// Handles the internal link redirection for the github pull request previews
+$("a[href^='/']").click(function () {
+  const prefix = document.body.dataset.path_prefix;
+  const href = $(this).attr("href");
+  console.log(prefix + href);
+  $(this).attr("href", prefix + href);
 });

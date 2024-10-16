@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/stylesheets/<%= config[:theme] %>.css">
     <meta name="google-site-verification" content="6AA5xLhIme9sFY9VNKZKcM5rJ_OsB96Q9FyPh2ZooIs" />
   </head>
-  <body>
+  <body data-path_prefix="<%= config[:path_prefix] %>"> <%# This is so I can access the path prefix the javascript file %>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
