@@ -1,13 +1,14 @@
-name: Deployment
+name: Build
 
 on:
   push:
     branches:
       - master
+  pull_request:
 
 jobs:
-  deploy:
-    name: Deploy
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -19,11 +20,9 @@ jobs:
       - name: Install bundled gems
         run: bundle install
       - name: Build site
-        run: bundle exec middleman build
-      - name: GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+        run: bundle exec middleman build --verbose
+      - name: Check HTML
+        uses: anishathalye/proof-html@v2
         with:
-          target_branch: gh-pages
-          build_dir: ./build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          directory: ./build
+          disable_external: true
