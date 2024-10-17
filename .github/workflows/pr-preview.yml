@@ -11,14 +11,12 @@ on:
 concurrency: preview-${{ github.ref }}
 
 jobs:
-  build:
+  call-build:
     if: github.event.action != 'closed'
     uses: ./.github/workflows/build.yml
-    with:
-      path_prefix: pr-preview/pr-${{ github.event.number }}
   preview:
     runs-on: ubuntu-latest
-    needs: build
+    needs: call-build
     steps:
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1

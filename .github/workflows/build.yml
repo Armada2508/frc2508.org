@@ -1,20 +1,13 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - master
   workflow_call:
-    inputs:
-      path_prefix:
-        required: false
-        type: string
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      path_prefix: ${{ inputs.path_prefix || '' }}
+    env: # For the pull request preview action, sets it to an empty string when called by deploy
+      path_prefix: pr-preview/pr-${{ github.event.number || ''}}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4

@@ -1,25 +1,19 @@
-name: Deployment
+name: Deploy
 
 on:
   push:
     branches:
       - master
 
+concurrency: deploy-${{ github.ref }}
+
 jobs:
+  call-build:
+    uses: ./.github/workflows/build.yml
   deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
+    needs: call-build
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3.4"
-      - name: Install bundled gems
-        run: bundle install
-      - name: Build site
-        run: bundle exec middleman build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
