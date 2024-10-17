@@ -11,7 +11,7 @@
     <meta name="google-site-verification" content="6AA5xLhIme9sFY9VNKZKcM5rJ_OsB96Q9FyPh2ZooIs" />
   </head>
   <%# Sets the path prefix for all internal relative links for the preview feature on Github pull requests %>
-  <body data-path_prefix="<%= ENV["OS"] || "" %>">
+  <body data-path_prefix="<%= ENV["path_prefix"] || "" %>">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
