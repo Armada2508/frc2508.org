@@ -7,9 +7,6 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :documents_dir, 'assets/documents'
 
-# Sets the path prefix for all internal relative links for the preview feature on Github pull requests
-set :path_prefix, ENV["path_prefix"] || ""
-
 # Pretty URLs
 activate :directory_indexes
 
