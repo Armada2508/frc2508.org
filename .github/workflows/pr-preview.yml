@@ -18,8 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: call-build
     steps:
+      - uses: actions/upload-artifact@v4
+        with:
+          name: directory
+          path: .
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./build
-          custom-url: frc2508.com
+          # custom-url: frc2508.com
