@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
   workflow_call:
     inputs:
       path_prefix:
@@ -13,7 +12,6 @@ on:
 
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
     env:
       path_prefix: ${{ inputs.path_prefix || '' }}
