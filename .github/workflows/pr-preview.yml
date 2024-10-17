@@ -1,0 +1,29 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  call-build:
+    if: github.event.action != 'closed'
+    uses: ./.github/workflows/build.yml
+  preview:
+    runs-on: ubuntu-latest
+    needs: call-build
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: ./build
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build
+          custom-url: frc2508.com
