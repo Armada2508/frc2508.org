@@ -24,3 +24,8 @@ jobs:
         with:
           directory: ./build
           disable_external: true
+      - name: Upload build folder for consumers
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: ./build
