@@ -16,7 +16,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      path_prefix: ${{ inputs.path_prefix || "" }}
+      path_prefix: ${{ inputs.path_prefix || '' }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
