@@ -21,3 +21,5 @@ runs:
       with:
         directory: ./build
         disable_external: true
+        swap_urls: |
+          {"^$path_prefix": "/"}
