@@ -1,5 +1,5 @@
 - year: 2023-2024
-  image: /assets/images/teams/2024.jpg
+  image: assets/images/teams/2024.jpg
   leadership: >
     Captain - Frederick Ribolzi<br>
     Mechanical Leads - Frederick Ribolzi / Jaxon Bluesky<br>
@@ -11,7 +11,7 @@
   about:
 
 - year: 2022-2023
-  image: /assets/images/teams/2023.jpg
+  image: assets/images/teams/2023.jpg
   leadership: >
     Captain - Frederick Ribolzi<br>
     Mechanical Lead - Frederick Ribolzi<br>
@@ -23,7 +23,7 @@
   about:
 
 - year: 2021-2022
-  image: /assets/images/teams/2022.jpg
+  image: assets/images/teams/2022.jpg
   leadership: >
     Captain - Addie Foote<br>
     Electronics Lead - Eddie Roots<br>
@@ -31,7 +31,7 @@
   about:
 
 - year: 2019-2020
-  image: /assets/images/teams/2020.jpg
+  image: assets/images/teams/2020.jpg
   leadership: >
     Captain - Ben Abbott<br>
     Assistant Captain - Carter Smith<br>
@@ -40,7 +40,7 @@
     Fun fact! due to the COVID-19 pandemic, both championships were cancelled this year
 
 - year: 2018-2019
-  image: /assets/images/teams/2019.jpg
+  image: assets/images/teams/2019.jpg
   leadership: >
     Captain - Everett Kroll<br>
     Assistant Captain - Ben Abbott<br>
@@ -57,7 +57,7 @@
     Regional Competition in North Dakota and the 10,000 Lakes Regional Competition in Minnesota.
 
 - year: 2017-2018
-  image: /assets/images/teams/2018.jpg
+  image: assets/images/teams/2018.jpg
   leadership: >
     Captain - Everett Kroll<br>
     Mechanical Lead - Everett Kroll<br>
@@ -69,7 +69,7 @@
     Fun fact! We have been a team for a decade.
 
 - year: 2016-2017
-  image: /assets/images/teams/2017.jpg
+  image: assets/images/teams/2017.jpg
   leadership: >
     Captain: Alex Serier<br>
     Junior Captain (Organization): Sophie Oubaha<br>
@@ -80,7 +80,7 @@
   about:
 
 - year: 2015-2016
-  image: /assets/images/teams/2016.jpg
+  image: assets/images/teams/2016.jpg
   leadership: >
     Captain (Build): Ace Oubaha<br>
     Captain (Organization): Gina Jostes<br>
@@ -91,7 +91,7 @@
   about:
 
 - year: 2014-2015
-  image: /assets/images/teams/2015.jpg
+  image: assets/images/teams/2015.jpg
   leadership: >
     Captain: Joey Fedor<br>
     Officer (Secretary): Peace Sinyigaya<br>
@@ -104,7 +104,7 @@
   about: Fun fact! This is the largest team Armada has ever had with a total of 59 students!
 
 - year: 2013-2014
-  image: /assets/images/teams/2014.jpg
+  image: assets/images/teams/2014.jpg
   leadership: >
     Captain: Holly Newton<br>
     Junior Captain: Joey Fedor<br>
@@ -122,7 +122,7 @@
     Fun fact! We ranked 7th at the Aerial Assist competition.
 
 - year: 2012-2013
-  image: /assets/images/teams/2013.jpg
+  image: assets/images/teams/2013.jpg
   leadership: >
     Captain: Christopher Trom<br>
     Assistant Captain: Alex Mereza<br>
@@ -139,35 +139,35 @@
   about:
 
 - year: 2011-2012
-  image: /assets/images/teams/2012.jpg
+  image: assets/images/teams/2012.jpg
   leadership: >
     Captain: Jimmy Fedor
   challenge: Rebound Rumble
   about: Fun fact! We went to state for the first time with this team and won!
 
 - year: 2010-2011
-  image: /assets/images/teams/2011.jpg
+  image: assets/images/teams/2011.jpg
   leadership: >
     Captain: Sean Quinn
   challenge: Logomotion
   about:
 
 - year: 2009-2010
-  image: /assets/images/teams/2010.jpg
+  image: assets/images/teams/2010.jpg
   leadership: >
     Captain: Sean Quinn
   challenge: Breakaway
   about:
 
 - year: 2008-2009
-  image: /assets/images/teams/2009.jpg
+  image: assets/images/teams/2009.jpg
   leadership: >
     Captain: Ben Johnson
   challenge: Lunacy
   about:
 
 - year: 2007-2008
-  image: /assets/images/teams/2008.jpg
+  image: assets/images/teams/2008.jpg
   leadership: >
     Captain: Jeff Schumacher
   challenge: Overdrive

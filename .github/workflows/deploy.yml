@@ -1,29 +1,23 @@
-name: Deployment
+name: Deploy
 
 on:
   push:
     branches:
       - master
 
+concurrency: deploy-${{ github.ref }}
+
 jobs:
   deploy:
-    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Build website
+        uses: ./.github/actions/build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          ruby-version: "3.3.4"
-      - name: Install bundled gems
-        run: bundle install
-      - name: Build site
-        run: bundle exec middleman build
-      - name: GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: gh-pages
-          build_dir: ./build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          folder: ./build
+          clean-exclude: pr-preview/
+          force: false

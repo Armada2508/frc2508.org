@@ -1,7 +1,7 @@
 - name: Galleon - Semifinalist at both Great Northern and 10,000 Lakes
   hidden: false
   year: 2024
-  image: /assets/images/robots/2024.jpg
+  image: assets/images/robots/2024.jpg
   record: 12-11-0
   ranking: 39 (Great Northern), 7 (10,000 Lakes)
   about: >
@@ -19,7 +19,7 @@
 - name: Kris
   hidden: false
   year: 2023
-  image: /assets/images/robots/2023.jpg
+  image: assets/images/robots/2023.jpg
   record: 4-6-0 (Great Northern), 2-7-0 (10,000 Lakes)
   ranking: 25 (Great Northern), 57 (10,000 Lakes)
   about: >
@@ -36,7 +36,7 @@
 - name: Everest
   hidden: false
   year: 2022
-  image: /assets/images/robots/2022.jpg
+  image: assets/images/robots/2022.jpg
   record: 6-7-0
   ranking: 17
   about: >
@@ -52,7 +52,7 @@
 - name: Ferb
   hidden: false
   year: 2020
-  image: /assets/images/robots/2020.jpg
+  image: assets/images/robots/2020.jpg
   record: 2-7-0
   ranking: 52
   about: >
@@ -68,7 +68,7 @@
 - name: Newton - Semifinalist at 10,000 Lakes Regionals
   hidden: false
   year: 2019
-  image: /assets/images/robots/2019.jpg
+  image: assets/images/robots/2019.jpg
   record: 8-5-1 (10,000 Lakes), 4-6-0 (Great Northern)
   ranking: 7 (10,000 Lakes), 30 (Great Northern)
   about: >
@@ -83,14 +83,14 @@
 
 - name: T-Shirt Launcher
   year: 2015-2024
-  image: /assets/images/robots/tshirt.jpg
+  image: assets/images/robots/tshirt.jpg
   about: >
     Launches t-shirts at games at Stillwater Area High School and other outreach events. In 2023 it had a large makeover
     from the old cRIO control system to the newer roboRIO control system.
 
 - name: Phineas
   year: 2018
-  image: /assets/images/robots/2018.jpg
+  image: assets/images/robots/2018.jpg
   record: 5-4-0
   ranking: 24
   about: >
@@ -103,7 +103,7 @@
 
 - name: The Felix
   year: 2017
-  image: /assets/images/robots/2017.jpg
+  image: assets/images/robots/2017.jpg
   record: 3-5-0
   ranking: 43
   about: >
@@ -117,7 +117,7 @@
 
 - name: The Rook
   year: 2016
-  image: /assets/images/robots/2016.jpg
+  image: assets/images/robots/2016.jpg
   record: 4-4-0
   ranking: 25
   about: >
@@ -131,7 +131,7 @@
 
 - name: The Recycler
   year: 2015
-  image: /assets/images/robots/2015.jpg
+  image: assets/images/robots/2015.jpg
   record:
   ranking: 55
   about: >
@@ -144,7 +144,7 @@
 
 - name: The Sniper
   year: 2014
-  image: /assets/images/robots/2014.jpg
+  image: assets/images/robots/2014.jpg
   about: >
     Able to pick up, pass, and launch giant balls
   record: 7-4-1
@@ -157,7 +157,7 @@
 
 - name: The Frisbro
   year: 2013
-  image: /assets/images/robots/2013.jpg
+  image: assets/images/robots/2013.jpg
   about: >
     Able to shoot frisbees into goals and lift itself and hang from a bar at the end of competition
   record: 4-4-0
@@ -170,7 +170,7 @@
 
 - name: The Rebounder - State Champion
   year: 2012
-  image: /assets/images/robots/2012.jpg
+  image: assets/images/robots/2012.jpg
   about: >
     Able to pick up and launch basketballs
   record: 9-4-0
@@ -184,7 +184,7 @@
 
 - name: The Groover
   year: 2011
-  image: /assets/images/robots/2011.jpg
+  image: assets/images/robots/2011.jpg
   about: >
     Able to pick up game pieces and hang them.
   record: 5-4-0
@@ -199,7 +199,7 @@
 
 - name: Kelly
   year: 2010
-  image: /assets/images/robots/2010.jpg
+  image: assets/images/robots/2010.jpg
   about: >
     U/K
   record: 3-4-3
@@ -218,7 +218,7 @@
 
 - name: Jesse
   year: 2009
-  image: /assets/images/robots/2009.jpg
+  image: assets/images/robots/2009.jpg
   about: >
     U/K
   record: 3-6-0
@@ -235,13 +235,13 @@
 
 - name: Jeeves
   year: 2009
-  image: /assets/images/robots/jeeves.jpg
+  image: assets/images/robots/jeeves.jpg
   about: >
     Personal project.
 
 - name: Jeff Jr.
   year: 2008
-  image: /assets/images/robots/2008.jpg
+  image: assets/images/robots/2008.jpg
   about: >
     U/K
   record: 4-5-0

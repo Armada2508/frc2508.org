@@ -1,0 +1,22 @@
+name: Build
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3.3.4"
+    - name: Install bundled gems
+      run: bundle install
+      shell: bash
+    - name: Build site
+      run: bundle exec middleman build --verbose
+      shell: bash
+    - name: Check HTML
+      uses: anishathalye/proof-html@v2
+      with:
+        directory: ./build
+        disable_external: true
+        swap_urls: | # Account for base url / path prefix
+          {"^${{ env.path_prefix || '/'}}": "/"} 
