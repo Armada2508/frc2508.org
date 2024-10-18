@@ -6,17 +6,17 @@
     <title><%= yield_content :title %> » Armada Robotics</title>
     <%# Sets the path prefix for all internal relative links for the preview feature on Github pull requests %>
     <base href="<%= ENV["path_prefix"] || "/" %>">
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/stylesheets/main.css">
-    <link rel="stylesheet" href="/assets/stylesheets/<%= config[:theme] %>.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/<%= config[:theme] %>.css">
     <meta name="google-site-verification" content="6AA5xLhIme9sFY9VNKZKcM5rJ_OsB96Q9FyPh2ZooIs" />
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">
+          <a href="" class="navbar-brand">
             Armada Robotics
           </a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
@@ -28,28 +28,28 @@
         <div id="navbar-main" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li <%= "class='active'" if current_page.path == "about.html" %>>
-              <a href="/about">About</a>
+              <a href="about">About</a>
             </li>
             <li <%= "class='active'" if current_page.path == "robots.html" %>>
-              <a href="/robots">Robots</a>
+              <a href="robots">Robots</a>
             </li>
             <li <%= "class='active'" if current_page.path == "teams.html" %>>
-              <a href="/teams">Teams</a>
+              <a href="teams">Teams</a>
             </li>
             <li <%= "class='active'" if current_page.path == "resources.html" %>>
-              <a href="/resources">Resources</a>
+              <a href="resources">Resources</a>
             </li>
             <li <%= "class='active'" if current_page.path == "sponsors.html" %>>
-              <a href="/sponsors">Sponsors</a>
+              <a href="sponsors">Sponsors</a>
             </li>
             <li <%= "class='active'" if current_page.path == "donate.html" %>>
-              <a href="/donate">Donate</a>
+              <a href="donate">Donate</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="first">
               <a href="https://www.firstinspires.org/robotics/frc" target="_blank">
-                <img src="/assets/images/brands/first-logo.png" alt="first logo">
+                <img src="assets/images/brands/first-logo.png" alt="first logo">
               </a>
             </li>
           </ul>
@@ -66,7 +66,7 @@
         <div class="row" style="display:flex; align-items:center;">
           <div class="col-lg-6">
             <p>
-              &copy; 2007-<%= Time.now.year %> <a href="/" class="inherit-color"><b>Armada Robotics</b></a>
+              &copy; 2007-<%= Time.now.year %> <a href="" class="inherit-color"><b>Armada Robotics</b></a>
             </p>
             <p>
               Maintained by the <a href="https://github.com/Armada2508" class="inherit-color" target="_blank">FRC2508 development team</a> (<%= Time.now.getlocal('-06:00').strftime('%b %d, %Y') %>).
@@ -79,10 +79,10 @@
           </div>
           <div style="display: flex; justify-content: center; flex-wrap: wrap; align-items: center; gap: 30px; margin-left: auto;">
             <a href="https://www.stillwater.k12.mn.us" target="_blank">
-              <img src="/assets/images/brands/pony-pride.png" alt="stillwater schools logo" style="max-width: 50px; width: 100%;"/>
+              <img src="assets/images/brands/pony-pride.png" alt="stillwater schools logo" style="max-width: 50px; width: 100%;"/>
             </a>
             <a href="https://www.firstinspires.org/robotics/frc" target="_blank">
-              <img src="/assets/images/brands/frc.png" alt="frc logo" style="max-width: 80px; width: 100%;"/>
+              <img src="assets/images/brands/frc.png" alt="frc logo" style="max-width: 80px; width: 100%;"/>
             </a>
           </div>
         </div>
