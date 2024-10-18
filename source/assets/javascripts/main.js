@@ -30,8 +30,7 @@ $("a").click(function () {
 
 $(document).ready(() => {
   if (document.location.pathname.startsWith("/cad")) {
-    window.onhashchange = () => window.location.reload();
-    const modelName = window.location.hash.substring(1);
+    const modelName = window.location.search.substring(1);
     if (modelName) {
       const modelViewer = document.getElementById("cad-viewer");
       modelViewer.setAttribute("poster", "assets/images/robots/2024.jpg"); //? Should be dynamic
