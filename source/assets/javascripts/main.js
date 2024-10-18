@@ -29,7 +29,7 @@ $("a").click(function () {
 });
 
 $(document).ready(() => {
-  if (document.location.pathname.startsWith("/cad")) {
+  if (document.location.pathname.includes("/cad")) {
     const modelName = window.location.search.substring(1);
     if (modelName) {
       const modelViewer = document.getElementById("cad-viewer");
