@@ -8,16 +8,11 @@ on:
 concurrency: deploy-${{ github.ref }}
 
 jobs:
-  call-build:
-    uses: ./.github/workflows/build.yml
   deploy:
     runs-on: ubuntu-latest
-    needs: call-build
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: build
-          path: ./build
+      - name: Build website
+        uses: ./.github/actions/build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

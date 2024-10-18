@@ -1,0 +1,27 @@
+name: Build
+
+runs:
+  using: "composite"
+  env: # For the pull request preview action, sets it to an empty string when called by deploy
+    path_prefix: pr-preview/pr-${{ github.event.number || ''}}
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3.3.4"
+    - name: Install bundled gems
+      run: bundle install
+    - name: Build site
+      run: bundle exec middleman build --verbose
+    - name: Check HTML
+      uses: anishathalye/proof-html@v2
+      with:
+        directory: ./build
+        disable_external: true
+    - name: Upload build folder for consumers
+      uses: actions/upload-artifact@v4
+      with:
+        name: build
+        path: ./build
