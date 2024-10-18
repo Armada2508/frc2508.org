@@ -14,9 +14,11 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
       - name: Build website
         if: github.event.action != 'closed'
-        uses: ./.github/workflows/build.yml
+        uses: ./.github/workflows/build
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
