@@ -14,9 +14,14 @@ $(".carousel").each(function () {
 });
 
 $("a").click(function () {
+  let href = $.attr(this, "href");
+  // Fix animation for anchors to IDs on the same page, need this because of base tag
+  if (href.includes("#")) {
+    href = href.substring(href.indexOf("#"));
+  }
   $("html, body").animate(
     {
-      scrollTop: $($.attr(this, "href")).offset().top,
+      scrollTop: $(href).offset().top,
     },
     500,
   );
