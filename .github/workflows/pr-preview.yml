@@ -23,4 +23,4 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./build
-          custom-url: frc2508.com
+          custom-url: frc2508.org
