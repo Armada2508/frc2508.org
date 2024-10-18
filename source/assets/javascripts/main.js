@@ -12,10 +12,3 @@ $(".carousel").each(function () {
     interval: speed,
   });
 });
-
-// Handles the internal link redirection for the github pull request previews
-$("a[href^='/']").click(function () {
-  const prefix = document.body.dataset.path_prefix;
-  const href = $(this).attr("href");
-  $(this).attr("href", prefix + href);
-});
