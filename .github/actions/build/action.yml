@@ -22,4 +22,4 @@ runs:
         directory: ./build
         disable_external: true
         swap_urls: |
-          {"^$path_prefix": "/"}
+          {"^${{ github.event.number && format('/pr-preview/pr-{0}/', github.event.number) || '/'}}": "/"}
