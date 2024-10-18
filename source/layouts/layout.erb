@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= yield_content :title %> » Armada Robotics</title>
     <%# Sets the path prefix for all internal relative links for the preview feature on Github pull requests %>
-    <base href="<%= ENV["path_prefix"] || "/" %>">
+    <base href="<%= ENV["path_prefix"] || "" %>">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/stylesheets/main.css">

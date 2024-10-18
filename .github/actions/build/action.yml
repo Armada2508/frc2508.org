@@ -13,7 +13,7 @@ runs:
       shell: bash
     - name: Build site
       env: # For the pull request preview action, sets it to an empty string when called by deploy
-        path_prefix: ${{ github.event.number && format('/pr-preview/pr-{0}/', github.event.number) || '/'}}
+        path_prefix: ${{ github.event.number && format('/pr-preview/pr-{0}/', github.event.number) || ''}}
       run: bundle exec middleman build --verbose
       shell: bash
     - name: Check HTML
@@ -22,4 +22,4 @@ runs:
         directory: ./build
         disable_external: true
         swap_urls: |
-          {"^${{ github.event.number && format('/pr-preview/pr-{0}/', github.event.number) || '/'}}": "/"}
+          {"^${{ github.event.number && format('/pr-preview/pr-{0}/', github.event.number) || ''}}": ""}
