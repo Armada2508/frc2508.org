@@ -1,1 +1,1 @@
-$("body").scrollspy({target:"#nav",offset:40}),$(".carousel").each((function(){var t=5e3;null!=$(this).data("rel-speed")&&(t=$(this).data("rel-speed")),$(this).carousel({interval:t})})),$("a[href^='/']").click((function(){const t=document.body.dataset.path_prefix,e=$(this).attr("href");$(this).attr("href",t+e)}));
+$("body").scrollspy({target:"#nav",offset:40}),$(".carousel").each((function(){var e=5e3;null!=$(this).data("rel-speed")&&(e=$(this).data("rel-speed")),$(this).carousel({interval:e})}));
