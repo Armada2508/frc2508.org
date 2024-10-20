@@ -1,5 +1,6 @@
 body {
   padding-top: 65px !important;
+  scroll-behavior: smooth;
 }
 
 .first a {
