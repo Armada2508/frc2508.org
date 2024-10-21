@@ -1,6 +1,6 @@
 - name: 3M
   url: https://www.3m.com
-  image: assets/images/brands/3MLogo.png
+  image: assets/images/brands/3M.png
   about: >
     The 3M Company, is a United States multinational conglomerate corporation based in 
     Maplewood, Minnesota, United States. 3M has operations in more than 65 countries – 
@@ -34,7 +34,7 @@
 
 - name: Partnership Plan
   url: https://www.partnershipplan.org/
-  image: assets/images/brands/PartnershipPlanLogo.png
+  image: assets/images/brands/partnershipPlan.png
   about: >
     The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.
 
@@ -64,7 +64,7 @@
 #
 # - name: Polaris
 #   url: https://www.polaris.com/en-us/home.aspx
-#   image: assets/images/brands/polaris_logo.jpg
+#   image: assets/images/brands/polaris.jpg
 #   about: >
 #     Polaris is an American manufacturer of snowmobiles, ATVs, and neighborhood electric vehicles,
 #     with a firm belief in the ethics and value of their employees. Polaris endeavors to manufacture
@@ -73,14 +73,14 @@
 
 # - name: United Hardware
 #   url: https://unitedhardware.com/Default.aspx
-#   image: assets/images/brands/hardware_logo.jpg
+#   image: assets/images/brands/hardwareHank.jpg
 #   about: >
 #     United Hardware is a distributing company located in Plymoth, MN. They supply hardware items to about
 #     610 businesses. Most of their supplies goes Hardware Hank stores, which is owned by United Hardware.
 
 # - name: Vistatek
 #   url: https://www.vistatek.com/
-#   image: assets/images/brands/VistaTek_logo.jpg
+#   image: assets/images/brands/vistaTek.jpg
 #   about: >
 #     VistaTek is a family-owned manufacturing company located in Stillwater, MN. The company’s state-of-the-art
 #     software and in-house technologies allow it to efficiently assist customers with small to large projects.
