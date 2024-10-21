@@ -1,5 +1,6 @@
 body {
   padding-top: 65px !important;
+  scroll-behavior: smooth;
 }
 
 .first a {
@@ -8,14 +9,6 @@ body {
 
 .first img {
   height: 34px;
-}
-
-*[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -70px;
-  height: 70px;
-  visibility: hidden;
 }
 
 .footer {
