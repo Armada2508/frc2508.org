@@ -103,3 +103,15 @@ body {
 div.featurette {
   margin-top: 50px;
 }
+
+.btn-primary {
+  background-image: linear-gradient(#1967be, #1967be) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-size: 100%;
+}
