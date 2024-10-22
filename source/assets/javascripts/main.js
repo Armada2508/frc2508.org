@@ -5,7 +5,7 @@ document.querySelectorAll("a").forEach((a) =>
     let currentPath = document.location.href;
     // Paths end with slashes in prod but not locally
     if (currentPath.endsWith("/")) {
-      currentPath.substring(0, currentPath.length - 1);
+      currentPath = currentPath.substring(0, currentPath.length - 1);
     }
     // Check if it points to the same page we're on
     if (href.includes("#") && href.startsWith(currentPath)) {
