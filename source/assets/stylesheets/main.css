@@ -102,3 +102,10 @@ body {
 div.featurette {
   margin-top: 50px;
 }
+
+model-viewer::part(default-progress-bar) {
+  top: 50%;
+  translate: 0 -50%;
+  height: 15%;
+  background-color: rgba(57, 57, 57, 0.5);
+}
