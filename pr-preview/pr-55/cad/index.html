@@ -59,18 +59,19 @@
     <div class="container">
       <div>
   <div style="height: 500px;">
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-    <model-viewer 
-      alt="Galleon CAD for 2024 Crescendo" src="assets/models/galleon.glb" poster="assets/images/robots/2024.jpg" 
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <model-viewer
+      alt="Galleon CAD for 2024 Crescendo" src="" poster=""
       id="cad-viewer" style="width: inherit; height:inherit;"
       camera-orbit="45deg 55deg 125%" min-field-of-view="5deg"
-      auto-rotate rotation-per-second="10deg" 
-      loading="eager" interaction-prompt-style="basic" 
+      auto-rotate rotation-per-second="10deg"
+      loading="eager" interaction-prompt-style="basic"
       shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
   </div>
-  <a href="/index.html" 
+  <a id="cad-download" href="javascript:void(0);"
     class="btn btn-primary" style="display: block; margin: 20px auto 0 auto;" download>Download .STEP file</a>
 </div>
+<script src="assets/javascripts/cad.js"></script>
     </div>
     <br>
     <br>
