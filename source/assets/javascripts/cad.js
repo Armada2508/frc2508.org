@@ -14,6 +14,11 @@ modelData
     model: "assets/models/everest.glb",
     poster: "assets/images/robots/2022.jpg",
     download: "everest.step",
+  })
+  .set("galleon-small", {
+    model: "assets/models/galleon-small.glb",
+    poster: "assets/images/robots/2024.jpg",
+    download: "galleon.step",
   });
 
 let modelName = window.location.search.substring(1);
