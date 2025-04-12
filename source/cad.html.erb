@@ -1,0 +1,33 @@
+<% content_for :title, "CAD" %>
+<div>
+  <div style="height: 500px;">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <model-viewer
+      <%# TODO: I don't think the models should be more than 10 mb ... %>
+      alt="Galleon CAD for 2024 Crescendo" src="" poster=""
+      id="cad-viewer" style="width: inherit; height:inherit;"
+      camera-orbit="45deg 55deg 125%" min-field-of-view="5deg"
+      auto-rotate rotation-per-second="10deg"
+      loading="eager" interaction-prompt-style="basic"
+      shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+  </div>
+  <a id="cad-download" href="javascript:void(0);"
+    class="btn btn-primary" style="display: block; margin: 20px auto 0 auto;" download>Download .STEP file</a>
+  <select class="form-control btn-default">
+    <option>Model 1</option>
+    <option>Model 2</option>
+    <option>Model 3</option>
+  </select>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Models
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+      <li class="disabled"><a href="javascript:void(0);">Model 1</a></li>
+      <li><a href="javascript:void(0);">Model 2</a></li>
+      <li><a href="javascript:void(0);">Model 3</a></li>
+    </ul>
+  </div>
+</div>
+<script src="assets/javascripts/cad.js"></script>

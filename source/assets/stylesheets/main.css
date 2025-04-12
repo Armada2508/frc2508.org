@@ -10,14 +10,6 @@ body {
   height: 34px;
 }
 
-*[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -70px;
-  height: 70px;
-  visibility: hidden;
-}
-
 .footer {
   background-color: #f8f8f8;
   padding: 30px 0 !important;
@@ -109,4 +101,11 @@ body {
 
 div.featurette {
   margin-top: 50px;
+}
+
+model-viewer::part(default-progress-bar) {
+  top: 50%;
+  translate: 0 -50%;
+  height: 15%;
+  background-color: rgba(57, 57, 57, 0.5);
 }
