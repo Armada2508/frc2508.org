@@ -1,7 +1,7 @@
 - name: Olympic - Semifinalist at North Star
-  hidden: true
+  hidden: false
   year: 2025
-  image: assets/images/noimage.jpg
+  image: assets/images/robots/2025.jpg
   record: 14-8-0
   ranking: 26 (Great Northern), 10 (North Star)
   about: >
