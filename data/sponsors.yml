@@ -54,7 +54,11 @@
   about: >
     Bae Systems is an international company focusing on defence, aerospace, and security solutions. 
 
-
+- name: Stillwater Glass
+  url: https://stillwaterglass.com/
+  image: assets/images/brands/StillwaterGlass.png
+  about: >
+    Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
 
 # Landric Associates
 # Carbon Cue Company
@@ -107,12 +111,6 @@
 #  about: >
 #    As the first window and patio door manufacturer in the U.S. to earn the seal of approval from Green Seal, the Anderson Corporation manufacture and 
 #   market windows and doors for commercial, residential, and auto glass. They have over 30 locations, with their headquarters located in Bayport, Minnesota.
-
-# - name: Stillwater Glass
-#   url: https://stillwaterglass.com/
-#   image: assets/images/brands/StillwaterGlass.png
-#   about: >
-#     Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
 
 # - name: 3M
 #   url: https://www.3m.com
