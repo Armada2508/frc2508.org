@@ -39,6 +39,11 @@
         <%= team.leadership %>
       </p>
       <br>
+      <% if team.subLeadership.present? %>
+        <b>Sub Leadership:</b>
+        <p><%= team.subLeadership %></p>
+      <% end %>
+      <br>
       <% if team.about.present? %>
         <b>About:</b>
         <p>

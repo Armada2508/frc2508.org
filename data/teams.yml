@@ -1,3 +1,20 @@
+- year: 2024-2025
+  image: assets/images/teams/2025.jpg
+  leadership: >
+    Captains - Brock Blaha / Jaxon Bluesky<br>
+    Mechanical Lead - Jaxon Bluesky<br>
+    Programming Lead - Brock Blaha<br>
+    Business Lead - Mya Brainard<br>
+    Electronics Lead - Blake Friedrich<br>
+  subLeadership: >
+    Mechanical Sub-lead - Ian Westmoreland<br>
+    Programming Sub-lead - Chris Topp<br>
+    Business Sub-lead - Emma Yates<br>
+    Electronics Sub-lead - Landon Belmonte<br>
+  challenge: Reefscape
+  awards: Team Sustainability Award sponsored by Dow, Team Spirit Award
+  about:
+
 - year: 2023-2024
   image: assets/images/teams/2024.jpg
   leadership: >
@@ -71,10 +88,10 @@
 - year: 2016-2017
   image: assets/images/teams/2017.jpg
   leadership: >
-    Captain: Alex Serier<br>
-    Junior Captain (Organization): Sophie Oubaha<br>
-    Officer (Build): Ryan Purrington<br>
-    Build Team Lead: Marta
+    Captain - Alex Serier<br>
+    Junior Captain (Organization) - Sophie Oubaha<br>
+    Officer (Build) - Ryan Purrington<br>
+    Build Team Lead - Marta
   challenge: FIRST Steamworks
   awards: Team Spirit Award sponsored by FCA Foundation
   about:
@@ -82,23 +99,23 @@
 - year: 2015-2016
   image: assets/images/teams/2016.jpg
   leadership: >
-    Captain (Build): Ace Oubaha<br>
-    Captain (Organization): Gina Jostes<br>
-    Captain (Programming): Patrick Balfanz<br>
-    Junior Captain: Alex Serier<br>
-    Safety Captain: Emma Klinzing
+    Captain (Build) - Ace Oubaha<br>
+    Captain (Organization) - Gina Jostes<br>
+    Captain (Programming) - Patrick Balfanz<br>
+    Junior Captain - Alex Serier<br>
+    Safety Captain - Emma Klinzing
   challenge: FIRST Stronghold
   about:
 
 - year: 2014-2015
   image: assets/images/teams/2015.jpg
   leadership: >
-    Captain: Joey Fedor<br>
-    Officer (Secretary): Peace Sinyigaya<br>
-    Officer (Communication): Margo Redmond<br>
-    Officer (Build): Kyle Badger<br>
-    Junior Captain: Ace Oubaha<br>
-    Safety Captain: James Vandenbergh
+    Captain - Joey Fedor<br>
+    Officer (Secretary) - Peace Sinyigaya<br>
+    Officer (Communication) - Margo Redmond<br>
+    Officer (Build) - Kyle Badger<br>
+    Junior Captain - Ace Oubaha<br>
+    Safety Captain - James Vandenbergh
   members: 59
   challenge: Recycle Rush
   about: Fun fact! This is the largest team Armada has ever had with a total of 59 students!
@@ -106,16 +123,16 @@
 - year: 2013-2014
   image: assets/images/teams/2014.jpg
   leadership: >
-    Captain: Holly Newton<br>
-    Junior Captain: Joey Fedor<br>
-    Secretary/Inventory Lead: Peace Sinyigaya<br>
-    Treasurer/Communications: Margo Redmond<br>
-    Robot Design: David Lee<br>
-    Electronics: Cory Spawn<br>
-    Robot Programming: Kyle Badger<br>
-    Website Programming: Mitchell Pung<br>
-    Build Team: Evan Nowaczek/Ben Anderson<br>
-    Safety Captain: James VandenBergh
+    Captain - Holly Newton<br>
+    Junior Captain - Joey Fedor<br>
+    Secretary/Inventory Lead - Peace Sinyigaya<br>
+    Treasurer/Communications - Margo Redmond<br>
+    Robot Design - David Lee<br>
+    Electronics - Cory Spawn<br>
+    Robot Programming - Kyle Badger<br>
+    Website Programming - Mitchell Pung<br>
+    Build Team - Evan Nowaczek/Ben Anderson<br>
+    Safety Captain - James VandenBergh
   members: 31 >
   challenge: Aerial Assist
   about: >
@@ -124,15 +141,15 @@
 - year: 2012-2013
   image: assets/images/teams/2013.jpg
   leadership: >
-    Captain: Christopher Trom<br>
-    Assistant Captain: Alex Mereza<br>
-    Quality Assurance: Kyle Badger<br>
-    Sponsorships: Christopher Trom<br>
-    Fabirication Captain: Alex Mereza<br>
-    Website Captain: Mitchell Pung<br>
-    Programming Captain: Julian Nowaczek<br>
-    Art/Design Captain: Ayla Rubenstien<br>
-    Electrical Captain: Cory Spawn<br>
+    Captain - Christopher Trom<br>
+    Assistant Captain - Alex Mereza<br>
+    Quality Assurance - Kyle Badger<br>
+    Sponsorships - Christopher Trom<br>
+    Fabirication Captain - Alex Mereza<br>
+    Website Captain - Mitchell Pung<br>
+    Programming Captain - Julian Nowaczek<br>
+    Art/Design Captain - Ayla Rubenstien<br>
+    Electrical Captain - Cory Spawn<br>
 
   challenge: Ultimate Ascent
   members: 34
@@ -141,28 +158,28 @@
 - year: 2011-2012
   image: assets/images/teams/2012.jpg
   leadership: >
-    Captain: Jimmy Fedor
+    Captain - Jimmy Fedor
   challenge: Rebound Rumble
   about: Fun fact! We went to state for the first time with this team and won!
 
 - year: 2010-2011
   image: assets/images/teams/2011.jpg
   leadership: >
-    Captain: Sean Quinn
+    Captain - Sean Quinn
   challenge: Logomotion
   about:
 
 - year: 2009-2010
   image: assets/images/teams/2010.jpg
   leadership: >
-    Captain: Sean Quinn
+    Captain - Sean Quinn
   challenge: Breakaway
   about:
 
 - year: 2008-2009
   image: assets/images/teams/2009.jpg
   leadership: >
-    Captain: Ben Johnson
+    Captain - Ben Johnson
   challenge: Lunacy
   about:
 

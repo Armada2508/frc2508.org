@@ -1,13 +1,3 @@
-- name: 3M
-  url: https://www.3m.com
-  image: assets/images/brands/3MLogo.png
-  about: >
-    The 3M Company, is a United States multinational conglomerate corporation based in 
-    Maplewood, Minnesota, United States. 3M has operations in more than 65 countries – 
-    29 international companies, 3M India is the only public company other than the parent company. 
-    3M products are available for purchase through distributors and retailers in more than 200 countries 
-    and/or colonies, and many 3M products are available online directly from the company.
-
 - name: PMMI
   url: https://www.pmmi.org
   image: assets/images/brands/pmmi.png
@@ -26,23 +16,52 @@
   about: >
     Medtronic is a medical device company dedicated to creating better health access for the world.
 
-- name: Stillwater Glass
-  url: https://stillwaterglass.com/
-  image: assets/images/brands/StillwaterGlass.png
-  about: >
-    Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
-
 - name: Partnership Plan
   url: https://www.partnershipplan.org/
   image: assets/images/brands/PartnershipPlanLogo.png
   about: >
     The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.
 
-- name: Aerojet Rocketdyne
-  url: https://www.l3harris.com/company/aerojet-rocketdyne
+- name: Aerojet
+  url: https://www.aerojetmn.com/
   image: assets/images/brands/aerojetLogo.jpg
   about: >
-    Aerojet Rocketdyne is an aerospace and defense company specializing in propulsion systems for national security, space exploration, and other commercial uses.
+    Aerojet is a manufacturing company specializing in Waterjet cutting and Tube Laser cutting.
+
+- name: Landric Associates
+  url: https://www.landricltd.com
+  image: assets/images/brands/landricAssociatesLogo.jpg
+  about: >
+    Landric Associates is a Twin Cities based builder and remodler of homes.
+
+- name: Carbon Cue Company
+  url: https://carboncuecompany.com
+  image: assets/images/brands/carbonCueCompanyLogo.jpg
+  about: >
+    The Carbon Cue Company is a manufacturer focusing on carbon fiber pool cues.  
+    
+
+- name: Stratasys
+  url: https://www.stratasys.com/en/
+  image: assets/images/brands/stratasysLogo.jpg
+  about: >
+    Stratasys is a 3D printing company which specializes in additive manufacturing solutions for various industries.
+    
+
+- name: Bae Systems
+  url: https://www.baesystems.com/en/home
+  image: assets/images/brands/baesystemsLogo.jpg
+  about: >
+    Bae Systems is an international company focusing on defence, aerospace, and security solutions. 
+
+- name: Stillwater Glass
+  url: https://stillwaterglass.com/
+  image: assets/images/brands/StillwaterGlass.png
+  about: >
+    Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
+
+# Landric Associates
+# Carbon Cue Company
 
 #- name: Culvers
 #  url:
@@ -90,4 +109,15 @@
 #  url: https://www.andersenwindows.com/
 #  image: assets/images/brands/andersonWindows.png
 #  about: >
-#    As the first window and patio door manufacturer in the U.S. to earn the seal of approval from Green Seal, the Anderson Corporation manufacture and market windows and doors for commercial, residential, and auto glass. They have over 30 locations, with their headquarters located in Bayport, Minnesota. .
+#    As the first window and patio door manufacturer in the U.S. to earn the seal of approval from Green Seal, the Anderson Corporation manufacture and 
+#   market windows and doors for commercial, residential, and auto glass. They have over 30 locations, with their headquarters located in Bayport, Minnesota.
+
+# - name: 3M
+#   url: https://www.3m.com
+#   image: assets/images/brands/3MLogo.png
+#   about: >
+#     The 3M Company, is a United States multinational conglomerate corporation based in 
+#     Maplewood, Minnesota, United States. 3M has operations in more than 65 countries – 
+#     29 international companies, 3M India is the only public company other than the parent company. 
+#     3M products are available for purchase through distributors and retailers in more than 200 countries 
+#     and/or colonies, and many 3M products are available online directly from the company.
