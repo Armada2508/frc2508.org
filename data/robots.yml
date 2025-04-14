@@ -1,3 +1,20 @@
+- name: Olympic - Semifinalist at North Star
+  hidden: false
+  year: 2025
+  image: assets/images/robots/2025.jpg
+  record: 14-8-0
+  ranking: 26 (Great Northern), 10 (North Star)
+  about: >
+    For the Reefscape challenge, we designed our robot with a cascade elevator to reach to L4 on the reef. Additionally, after many challenges 
+    we were able to implement a simple but functional deep climbing mechanism allowing us aid our alliance in getting the Barge RP. This was our 
+    first year using the swerve drivebase and we saw immense success through it in this robot. 
+  challenge: >
+    The 2025 challenge Reefscape presented by Haas focuses on underwater preservation as part of FIRST's Dive season. This game requires robots to 
+    score Coral (PVC Pipes) onto a hexagonal reef structure featuring 12 pegs with 4 levels each, earning more points the higher they score. The reef
+    starts out with Algae (Green balls) needing to be removed to open full access to the Reef for scoring. This algae can be scored in two zones- The
+    processor on the ground, or the net up above in the middle of the field. At the end, robots either continue to cycle game pieces, or go to climb 
+    on a steel cage which is either 3.5" (deep) or 2'1" (shallow) off the ground.
+
 - name: Galleon - Semifinalist at both Great Northern and 10,000 Lakes
   hidden: false
   year: 2024
@@ -20,7 +37,7 @@
   hidden: false
   year: 2023
   image: assets/images/robots/2023.jpg
-  record: 4-6-0 (Great Northern), 2-7-0 (10,000 Lakes)
+  record: 6-13-0
   ranking: 25 (Great Northern), 57 (10,000 Lakes)
   about: >
     This year, for the Charged Up challenge, we designed a robot to move both types of game pieces and at the end, balance on the
@@ -69,7 +86,7 @@
   hidden: false
   year: 2019
   image: assets/images/robots/2019.jpg
-  record: 8-5-1 (10,000 Lakes), 4-6-0 (Great Northern)
+  record: 12-11-1
   ranking: 7 (10,000 Lakes), 30 (Great Northern)
   about: >
     This robot can intake cargo with a wheel system and 
@@ -132,7 +149,7 @@
 - name: The Recycler
   year: 2015
   image: assets/images/robots/2015.jpg
-  record:
+  record: 37.44 Average Qual Score
   ranking: 55
   about: >
     Able to stack and carry recycling bins up to the highest level for competition
