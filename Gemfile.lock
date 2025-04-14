@@ -97,7 +97,7 @@ GEM
     parallel (1.26.3)
     parslet (2.0.0)
     public_suffix (6.0.1)
-    rack (2.2.9)
+    rack (2.2.13)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.11.2)
@@ -123,7 +123,6 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
-    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -143,7 +142,6 @@ DEPENDENCIES
   middleman-sprockets
   mutex_m
   terser (~> 1.2)
-  wdm (~> 0.2.0)
 
 BUNDLED WITH
    2.5.16
