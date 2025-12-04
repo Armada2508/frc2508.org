@@ -1,3 +1,14 @@
+- name: TBD
+  hidden: true
+  year: 2026
+  image: assets/images/robots/2026.jpg
+  record: TBD
+  ranking: TBD (Bluff Country), TBD (10,000 Lakes)
+  about: >
+    TBD
+  challenge: >
+    TBD
+
 - name: Olympic - Semifinalist at North Star
   hidden: false
   year: 2025
