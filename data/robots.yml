@@ -1,12 +1,13 @@
 - name: Dreadnought
-  hidden: true
+  hidden: false
   year: 2026
   image: assets/images/robots/2026.jpg
   record: 13-13-0
   ranking: 11 (Bluff Country), 37 (10,000 Lakes)
   about: >
     For the Rebuilt challenge we made a fully automatic turret that would shoot from anywhere on our side of the field and pass to our side as well.
-    For our intake we decided to go with a rack and pinion design. Sadly this meant our turret never was used to its fullest potential. We also ended up making everything we could in house!
+    This worked because we had a hood that could change angels and a flywheel that could shoot at various rpm. For our intake we decided to go
+    with a rack and pinion design. This year we also had to buy new swerve modules and used a new bumper mounting design. We also ended up making everything we could in house!
   challenge: >
     The 2026 challenge Rebuilt was relatively simple compared to previous years as the main objective was to shoot as many fuel into your hub when active.
     The hub changed from active to inactive across four 25 second shifts with a 20 second autonomous period and a 30 second end game period.
