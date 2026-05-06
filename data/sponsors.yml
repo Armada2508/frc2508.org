@@ -40,23 +40,17 @@
   about: >
     Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
 
-- name: Pearson Services
-  url: https://www.pearson.com/en-us.html
-  image: assets/images/brands/PEARSON_LOGO_PURPLE_RGB.png
-  about: >
-    Pearson services is an educational publishing and technology company aiming to help people learn 
-
 - name: Mantyla Well Drilling 
   url: https://www.mantylawelldrillinginc.com/
-  image: assets/images/brands/Mantyla.webp
+  image: assets/images/brands/MantylaWell.png
   about: >
-    Mantyle Well Drilling supplies groundwater well & pump services based in Lakeland MN
+    Mantyle Well Drilling supplies groundwater well & pump services based in Lakeland MN.
 
 - name: Carbone's Pizzeria
   url: https://www.carbones.com/
   image: assets/images/brands/Carbones.png
   about: >
-    Carbone’s is a pizzeria and pub franchise with many locations in the USA
+    Carbone’s is a pizzeria and pub franchise with many locations in the USA.
 # Landric Associates
 # Carbon Cue Company
 
