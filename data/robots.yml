@@ -4,6 +4,7 @@
   image: assets/images/robots/2026.jpg
   record: 13-13-0
   ranking: 11 (Bluff Country), 37 (10,000 Lakes)
+  alliance: Alliance 8 (Bluff Country) Alliance 2 (10,00 Lakes)
   about: >
     For the Rebuilt challenge we made a fully automatic turret that would shoot from anywhere on our side of the field and pass to our side as well.
     This worked because we had a hood that could change angels and a flywheel that could shoot at various rpm. For our intake we decided to go
@@ -19,6 +20,7 @@
   image: assets/images/robots/2025.jpg
   record: 14-8-0
   ranking: 26 (Great Northern), 10 (North Star)
+  alliance: Alliance 6 (North Star)
   about: >
     For the Reefscape challenge, we designed our robot with a cascade elevator to reach to L4 on the reef. Additionally, after many challenges 
     we were able to implement a simple but functional deep climbing mechanism allowing us aid our alliance in getting the Barge RP. This was our 
@@ -29,13 +31,14 @@
     starts out with Algae (Green balls) needing to be removed to open full access to the Reef for scoring. This algae can be scored in two zones- The
     processor on the ground, or the net up above in the middle of the field. At the end, robots either continue to cycle game pieces, or go to climb 
     on a steel cage which is either 3.5" (deep) or 2'1" (shallow) off the ground.
-
+  
 - name: Galleon - Semifinalist at both Great Northern and 10,000 Lakes
   hidden: false
   year: 2024
   image: assets/images/robots/2024.jpg
   record: 12-11-0
   ranking: 39 (Great Northern), 7 (10,000 Lakes)
+  alliance: Alliance 6 (10,000 Lakes)
   about: >
     For the Crescendo challenge, our robot was designed to efficiently take in notes and shoot them into both the Speaker and Amp 
     elements by using vision software. Utilizing pneumatics which were implemented following catastrophic damages we sustained at the 
@@ -71,6 +74,7 @@
   image: assets/images/robots/2022.jpg
   record: 6-7-0
   ranking: 17
+  alliance: Alliance 2
   about: >
     Our robot for the Rapid React challenge focused on defense and climbing. During the autonomous phase, we would drop one ball into
     the lower goal. Throughout the main portion of the match we played defense by holding onto the opponents balls and blocking them
@@ -103,6 +107,7 @@
   image: assets/images/robots/2019.jpg
   record: 12-11-1
   ranking: 7 (10,000 Lakes), 30 (Great Northern)
+  alliance: Alliance 5 (10,000 Lakes)
   about: >
     This robot can intake cargo with a wheel system and 
     score on the low and mid level rocketships and the front and top
