@@ -38,6 +38,12 @@
             <td><%= robot.record %></td>
           </tr>
         <% end %>
+        <% if robot.alliance.present? %>
+          <tr>
+            <th>Alliance</th>
+            <td><%= robot.alliance %></td>
+          </tr>
+        <% end %>
       </table>
     </div>
     <div class="col-lg-8">

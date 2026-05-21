@@ -5,5 +5,6 @@ source/assets/documents
 source/assets/images
 source/assets/javascripts/bootstrap.js
 source/assets/javascripts/jquery.js
+data/teams
 # Prettier replaces asterisks with underscores which is annoying
 README.md 

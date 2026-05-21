@@ -1,11 +1,29 @@
+- year: 2025-2026
+  image: assets/images/teams/2026.jpg
+  leadership: >
+    Captains - Ian Westmoreland & Chris Topp<br>
+    Mechanical Lead - Ian Westmoreland<br>
+    Programming Lead - Chris Topp<br>
+    Business Leads - Emma Yates & Lyndsey Thron<br> 
+    Electronics Leads - Blake Friedrich & Landon Belmonte<br>
+    Lead Driver - Jasper Goulette<br>
+  subLeadership: >
+    Mechanical Sub-lead - Sean Bates<br>
+    Programming Sub-lead - Andrew Baumgartner<br>
+    
+  challenge: Rebuilt
+  awards: Rising All-Star
+  about: Fun Fact! During our second competition we placed the best we have in 12 years!
+
 - year: 2024-2025
   image: assets/images/teams/2025.jpg
   leadership: >
-    Captains - Brock Blaha / Jaxon Bluesky<br>
+    Captains - Brock Blaha & Jaxon Bluesky<br>
     Mechanical Lead - Jaxon Bluesky<br>
     Programming Lead - Brock Blaha<br>
     Business Lead - Mya Brainard<br>
     Electronics Lead - Blake Friedrich<br>
+    Lead Driver - Jasper Goulette<br>
   subLeadership: >
     Mechanical Sub-lead - Ian Westmoreland<br>
     Programming Sub-lead - Chris Topp<br>
@@ -19,10 +37,11 @@
   image: assets/images/teams/2024.jpg
   leadership: >
     Captain - Frederick Ribolzi<br>
-    Mechanical Leads - Frederick Ribolzi / Jaxon Bluesky<br>
+    Mechanical Leads - Frederick Ribolzi & Jaxon Bluesky<br>
     Programming Lead - Brock Blaha<br>
-    Business Leads - Mya Brainard / Cody Rasch<br>
+    Business Leads - Mya Brainard & Cody Rasch<br>
     Electronics Lead - Eddie Roots<br>
+    Lead Driver - Frederick Ribolzi<br>
   challenge: Crescendo
   awards: Team Sustainability Award sponsored by Dow
   about:
@@ -33,9 +52,10 @@
     Captain - Frederick Ribolzi<br>
     Mechanical Lead - Frederick Ribolzi<br>
     Programming Lead - Brock Blaha<br>
-    Business Leads - Mya Brainard / Cody Rasch<br>
+    Business Leads - Mya Brainard & Cody Rasch<br>
     CAD Lead - Frederick Ribolzi<br>
     Electronics Lead - Eddie Roots<br>
+    Lead Driver - Frederick Ribolzi<br>
   challenge: Charged Up
   about:
 
@@ -95,7 +115,7 @@
     Junior Captain (Organization) - Sophie Oubaha<br>
     Officer (Build) - Ryan Purrington<br>
     Build Team Lead - Marta
-  challenge: FIRST Steamworks
+  challenge: Steamworks
   awards: Team Spirit Award sponsored by FCA Foundation
   about:
 
@@ -107,7 +127,7 @@
     Captain (Programming) - Patrick Balfanz<br>
     Junior Captain - Alex Serier<br>
     Safety Captain - Emma Klinzing
-  challenge: FIRST Stronghold
+  challenge: Stronghold
   about:
 
 - year: 2014-2015

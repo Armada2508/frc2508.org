@@ -22,24 +22,6 @@
   about: >
     The Partnership Plan is a non-profit organization dedicated to enhancing learning opportunities through grants given to teachers and organizations.
 
-- name: Aerojet
-  url: https://www.aerojetmn.com/
-  image: assets/images/brands/aerojet.jpg
-  about: >
-    Aerojet is a manufacturing company specializing in Waterjet cutting and Tube Laser cutting.
-
-- name: Landric Associates
-  url: https://www.landricltd.com
-  image: assets/images/brands/landricAssociates.jpg
-  about: >
-    Landric Associates is a Twin Cities based builder and remodler of homes.
-
-- name: Carbon Cue Company
-  url: https://carboncuecompany.com
-  image: assets/images/brands/carbonCueCompany.jpg
-  about: >
-    The Carbon Cue Company is a manufacturer focusing on carbon fiber pool cues.
-
 - name: Stratasys
   url: https://www.stratasys.com/en/
   image: assets/images/brands/stratasys.jpg
@@ -58,6 +40,17 @@
   about: >
     Stillwater Glass is a commercial, residential, and auto glass mirror shop located in St. Croix Valley. They are dedicated to providing the best quality glass for their customers.
 
+- name: Mantyla Well Drilling 
+  url: https://www.mantylawelldrillinginc.com/
+  image: assets/images/brands/MantylaWell.png
+  about: >
+    Mantyle Well Drilling supplies groundwater well & pump services based in Lakeland MN.
+
+- name: Carbone's Pizzeria
+  url: https://www.carbones.com/
+  image: assets/images/brands/Carbones.png
+  about: >
+    Carbone’s is a pizzeria and pub franchise with many locations in the USA.
 # Landric Associates
 # Carbon Cue Company
 
@@ -72,6 +65,12 @@
 #  image: assets/images/brands/arbys.png
 #  about: >
 #    Arby’s is the second largest sandwich chain, according to Food & Wine in the October 2017 issue. They are known for their sandwiches, but they also offer sides, shakes, and salads.
+#
+#- name: Carbon Cue Company
+# url: https://carboncuecompany.com
+#  image: assets/images/brands/carbonCueCompany.jpg
+#  about: >
+#    The Carbon Cue Company is a manufacturer focusing on carbon fiber pool cues.
 #
 #- name: Kowalski's Markets
 #  url: https://www.kowalskis.com
@@ -119,3 +118,14 @@
 #     29 international companies, 3M India is the only public company other than the parent company.
 #     3M products are available for purchase through distributors and retailers in more than 200 countries
 #     and/or colonies, and many 3M products are available online directly from the company.
+#- name: Aerojet
+#  url: https://www.aerojetmn.com/
+#  image: assets/images/brands/aerojet.jpg
+#  about: >
+#    Aerojet is a manufacturing company specializing in Waterjet cutting and Tube Laser cutting.
+#
+#- name: Landric Associates#
+#  url: https://www.landricltd.com
+#  image: assets/images/brands/landricAssociates.jpg
+#  about: >
+#    Landric Associates is a Twin Cities based builder and remodler of homes.
