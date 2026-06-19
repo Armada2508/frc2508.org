@@ -17,6 +17,7 @@ runs:
       uses: anishathalye/proof-html@v2
       with:
         directory: ./build
+        check_css: false # Disable until a solution arises, Nu Validator doesn't recognize ::part
         disable_external: true
         swap_urls: | # Account for base url / path prefix
           {"^${{ env.path_prefix || '/'}}": "/"} 
